@@ -1,4 +1,6 @@
 # Favorite-OTT-characters
+![Screenshot 2022-10-03 at 3 05 50 PM](https://user-images.githubusercontent.com/68502136/193546635-a20aa437-9699-4348-bb05-8a0a3d68e264.png)
+
 Add your favorite OTT characters to the list and contribute to the hactoberfest 2022
 
 This repository is open to all members of the GitHub community. Any member may contribute to this project without being a collaborator.
