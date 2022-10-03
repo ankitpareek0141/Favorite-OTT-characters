@@ -3,6 +3,8 @@
 
 Add your favorite OTT characters to the list and contribute to the hactoberfest 2022
 
+Here is the page link :- https://ankitpareek0141.github.io/Favorite-OTT-characters/
+
 This repository is open to all members of the GitHub community. Any member may contribute to this project without being a collaborator.
 
 
