@@ -4519,6 +4519,12 @@ textarea.form-control-lg {
   border: 0.125rem solid rgba(0, 0, 0, 0.125);
   border-radius: 0.5rem;
 }
+.card:hover {
+  background-color: #dddddd;
+  box-shadow: 0 10px 10px rgb(44, 44, 44);
+  transform:translate(5px,5px);
+  transform: scale3d(1.01, 1.01, 1.01);
+}
 .card > hr {
   margin-right: 0;
   margin-left: 0;
