@@ -20,52 +20,54 @@
 
     <style>
         * {
-    box-sizing: border-box;
-    }
-    body.dark {
-    background-color: #292c35;
-    }
-    .checkbox {
-    opacity: 0;
-    position: absolute;
-    }
+            box-sizing: border-box;
+        }
 
-    .label {
-    width: 50px;
-    height: 26px;
-    background-color:#111;
-    display: flex;
-    border-radius:50px;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px;
-    position: relative;
-    transform: scale(1.5);
-    }
+        body.dark {
+            background-color: #292c35;
+        }
 
-    .ball {
-    width: 20px;
-    height: 20px;
-    background-color: white;
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    border-radius: 50%;
-    transition: transform 0.2s linear;
-    }
+        .checkbox {
+            opacity: 0;
+            position: absolute;
+        }
 
-    /*  target the elemenent after the label*/
-    .checkbox:checked + .label .ball{
-    transform: translateX(24px);
-    }
+        .label {
+            width: 50px;
+            height: 26px;
+            background-color: #111;
+            display: flex;
+            border-radius: 50px;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5px;
+            position: relative;
+            transform: scale(1.5);
+        }
 
-    .fa-moon {
-    color: pink;
-    }
+        .ball {
+            width: 20px;
+            height: 20px;
+            background-color: white;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            border-radius: 50%;
+            transition: transform 0.2s linear;
+        }
 
-    .fa-sun {
-    color: yellow;
-    }
+        /*  target the elemenent after the label*/
+        .checkbox:checked+.label .ball {
+            transform: translateX(24px);
+        }
+
+        .fa-moon {
+            color: pink;
+        }
+
+        .fa-sun {
+            color: yellow;
+        }
     </style>
 </head>
 
@@ -76,11 +78,11 @@
             <a class="navbar-brand" href="#page-top">Favorite OTT characters</a>
             <div>
                 <input type="checkbox" class="checkbox" id="checkbox">
-              <label for="checkbox" class="label">
-                <i class="fas fa-moon"></i>
-                <i class='fas fa-sun'></i>
-                <div class='ball'>
-              </label>
+                <label for="checkbox" class="label">
+                    <i class="fas fa-moon"></i>
+                    <i class='fas fa-sun'></i>
+                    <div class='ball'>
+                </label>
             </div>
         </div>
     </nav>
@@ -97,14 +99,14 @@
                 <div class="divider-custom-line"></div>
             </div>
 
-            
+
             <!-- <div class="container text-center mb-5">
                 <div class="input-group mb-3 w-50 m-auto">  
                     <input type="text" class="form-control" onkeyup="searchFunction()" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Search for names..">
                 </div>
             </div> -->
 
-            
+
             <!--  ***************** Cards Container *****************  -->
             <div class="row row-cols-1 row-cols-md-3 g-4">
 
@@ -170,19 +172,22 @@
 
                 <div class="col">
                     <div class="card h-100">
-                        <img src="https://akns-images.eonline.com/eol_images/Entire_Site/2019420/rs_600x600-190520142251-600x600.stranger-things-eleven-lp.52019.jpg" class="card-img-top"
-                            style="object-fit: contain; height: 300px; background-color: black;" alt="...">
+                        <img src="https://akns-images.eonline.com/eol_images/Entire_Site/2019420/rs_600x600-190520142251-600x600.stranger-things-eleven-lp.52019.jpg"
+                            class="card-img-top" style="object-fit: contain; height: 300px; background-color: black;"
+                            alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Eleven</h5>
                             <p class="card-text">
-                               Jane "El" Hopper (born Jane Ives) and better known as just Eleven, is a main character in Stranger Things. 
-                                She is portrayed by Millie Bobby Brown. Eleven was kidnapped as a newborn by Dr. Martin Brenner and
+                                Jane "El" Hopper (born Jane Ives) and better known as just Eleven, is a main character
+                                in Stranger Things.
+                                She is portrayed by Millie Bobby Brown. Eleven was kidnapped as a newborn by Dr. Martin
+                                Brenner and
                                 raised in Hawkins National Laboratory,
                             </p>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col">
                     <div class="card h-100">
                         <img src="https://www.bollywoodhungama.com/wp-content/uploads/2021/09/WhatsApp-Image-2021-09-23-at-10.45.54-AM.jpeg"
@@ -197,7 +202,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col">
                     <div class="card h-100">
                         <img src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/a418552e4e66f5e1cfc6c356cd54da2f7d2374034a449f4d28f706b91d82be0e._RI_V_TTW_.jpg"
@@ -209,7 +214,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col">
                     <div class="card h-100">
                         <img src="https://m.media-amazon.com/images/M/MV5BODY4Y2UyODUtYjkzNC00NmZlLWEzNWYtMTAxYmIzNGVlYmVkXkEyXkFqcGdeQXVyODAzNzAwOTU@._V1_.jpg"
@@ -217,74 +222,128 @@
                             alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Motu</h5>
-                            <p class="card-text">Motu and Patlu, two friends living in Fufuri Nagar, always get themselves into hilarious situations and later rescued merely by luck, using the help from Ghasita Ram, Inspector Chingam and Dr. Jhatka.</p>
+                            <p class="card-text">Motu and Patlu, two friends living in Fufuri Nagar, always get
+                                themselves into hilarious situations and later rescued merely by luck, using the help
+                                from Ghasita Ram, Inspector Chingam and Dr. Jhatka.</p>
                         </div>
                     </div>
                 </div>
-                
-                
+
+
                 <div class="col">
-                      <div class="card h-100">
-                        <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQReoIEUpSoud29w7SVySAkUPORd6a07RsXTA&usqp=CAU " class="card-img-top" style="object-fit: contain; height: 300px; background-color: black;" alt="...">
+                    <div class="card h-100">
+                        <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQReoIEUpSoud29w7SVySAkUPORd6a07RsXTA&usqp=CAU "
+                            class="card-img-top" style="object-fit: contain; height: 300px; background-color: black;"
+                            alt="...">
                         <div class="card-body">
                             <h5 class="card-title"> Thor </h5>
-                            <p class="card-text"> The warrior Thor (Chris Hemsworth) is cast out of the fantastic realm of Asgard by his father Odin (Sir Anthony Hopkins) 
-                                for his arrogance and sent to Earth to live amongst humans. Falling in love with scientist Jane Foster (Natalie Portman) teaches Thor much-needed lessons, and
-                                his new-found strength comes into play as a villain from his homeland sends dark forces toward Earth. </p>
+                            <p class="card-text"> The warrior Thor (Chris Hemsworth) is cast out of the fantastic realm
+                                of Asgard by his father Odin (Sir Anthony Hopkins)
+                                for his arrogance and sent to Earth to live amongst humans. Falling in love with
+                                scientist Jane Foster (Natalie Portman) teaches Thor much-needed lessons, and
+                                his new-found strength comes into play as a villain from his homeland sends dark forces
+                                toward Earth. </p>
                         </div>
                     </div>
-                </div>
-                
-                <div class="col">
-                      <div class="card h-100">
-                            <img src=" assets/img/thomas_shelby.png " class="card-img-top" style="object-fit: contain; height: 300px; background-color: black;" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title"> THOMAS SHELBY </h5>
-                            <p class="card-text"> Thomas Michael Shelby, OBE, DCM, MM, MP is a fictional character born in 1890 in Birmingham, England, and the main protagonist in the British period crime drama Peaky Blinders. He is played by Irish actor Cillian Murphy, who has won an Irish Film & Television Award and National Television Award for his portrayal of Shelby. The character has received critical acclaim. </p>
-                      </div>
-                  </div>
-                </div>
-                
-                <div class="col">
-                      <div class="card h-100">
-                        <img src=" https://nettv4u.com/imagine/12-01-2019/ritwik-bhowmik.jpg " class="card-img-top" style="object-fit: contain; height: 300px; background-color: black;" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title"> Ritwik Bhowmik</h5>
-                          <p class="card-text"> Ritwik Bhowmik is an Indian actor known for portraying Radhe in Bandish Bandits and Sanket Bhadoria in The Whistleblower.</p>
-                     </div>
-                  </div>
-                </div>
-                
-                <div class="col">
-                      <div class="card h-100">
-                        <img src="https://m.media-amazon.com/images/M/MV5BY2M3MTc0ODAtMDdjZi00ZjljLWIyNzUtOWY2ZjkxMjNhYzA0XkEyXkFqcGdeQXVyODAzNzAwOTU@._V1_.jpg" class="card-img-top" style="object-fit: contain; height: 300px; background-color: black;" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Harshad Mehta</h5>
-                          <p class="card-text">Set in 1980s and '90s Bombay, it follows the life of Harshad Mehta, a stockbroker who took the stock market to dizzying heights and his catastrophic downfall.</p>
-                     </div>
-                  </div>
                 </div>
 
                 <div class="col">
-                      <div class="card h-100">
-                        <img src="https://i1.sndcdn.com/artworks-000207776101-ysy86n-t500x500.jpg" class="card-img-top" style="object-fit: contain; height: 300px; background-color: black;" alt="...">
+                    <div class="card h-100">
+                        <img src=" assets/img/thomas_shelby.png " class="card-img-top"
+                            style="object-fit: contain; height: 300px; background-color: black;" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title"> Chinchan</h5>
-                          <p class="card-text">Crayon Shin-chan (Japanese: クレヨンしんちゃん, Hepburn: Kureyon Shin-chan), is a Japanese manga series written and illustrated by Yoshito Usui. Crayon Shin-chan made its first appearance in 1990 in a Japanese weekly magazine called Weekly Manga Action, which was published by Futabasha. Due to the accidental death of author Yoshito Usui, the manga in its original form ended on September 11, 2009.</p>
-                     </div>
-                  </div>
+                            <h5 class="card-title"> THOMAS SHELBY </h5>
+                            <p class="card-text"> Thomas Michael Shelby, OBE, DCM, MM, MP is a fictional character born
+                                in 1890 in Birmingham, England, and the main protagonist in the British period crime
+                                drama Peaky Blinders. He is played by Irish actor Cillian Murphy, who has won an Irish
+                                Film & Television Award and National Television Award for his portrayal of Shelby. The
+                                character has received critical acclaim. </p>
+                        </div>
+                    </div>
                 </div>
-                
+
                 <div class="col">
                     <div class="card h-100">
-                      <img src="https://img.etimg.com/thumb/msid-91585647,width-650,imgsize-37952,,resizemode-4,quality-100/doctor-strange-2.jpg" class="card-img-top" style="object-fit: contain; height: 300px; background-color: black;" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Doctor Strange</h5>
-                        <p class="card-text">Doctor Strange is a practising sorcerer who gains his abilities from mystical entities such as Agamotto, Cyttorak, Ikonn, Oshtur, Raggadorr, and Watoomb, who lend their energies to spells. The Cloak of Levitation, which gives Strange the ability to fly, the Eye of Agamotto, an amulet whose light is used to counteract evil magic, the Book of the Vishanti, a grimoire containing extensive knowledge of white magic, and the Orb of Agamotto, a crystal ball used for clairvoyance are among the magical items that Strange also wields. Strange has demonstrated proficiency with a variety of magically summoned weapons, including swords and axes, in addition to his magical abilities. He is also trained in judo and other martial arts styles. Before nerve damage rendered his hands ineffective, Strange was a skilled neurosurgeon.</p>
-                   </div>
+                        <img src=" https://nettv4u.com/imagine/12-01-2019/ritwik-bhowmik.jpg " class="card-img-top"
+                            style="object-fit: contain; height: 300px; background-color: black;" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> Ritwik Bhowmik</h5>
+                            <p class="card-text"> Ritwik Bhowmik is an Indian actor known for portraying Radhe in
+                                Bandish Bandits and Sanket Bhadoria in The Whistleblower.</p>
+                        </div>
+                    </div>
                 </div>
-             </div>
-                
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://m.media-amazon.com/images/M/MV5BY2M3MTc0ODAtMDdjZi00ZjljLWIyNzUtOWY2ZjkxMjNhYzA0XkEyXkFqcGdeQXVyODAzNzAwOTU@._V1_.jpg"
+                            class="card-img-top" style="object-fit: contain; height: 300px; background-color: black;"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Harshad Mehta</h5>
+                            <p class="card-text">Set in 1980s and '90s Bombay, it follows the life of Harshad Mehta, a
+                                stockbroker who took the stock market to dizzying heights and his catastrophic downfall.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://i1.sndcdn.com/artworks-000207776101-ysy86n-t500x500.jpg" class="card-img-top"
+                            style="object-fit: contain; height: 300px; background-color: black;" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> Chinchan</h5>
+                            <p class="card-text">Crayon Shin-chan (Japanese: クレヨンしんちゃん, Hepburn: Kureyon Shin-chan), is
+                                a Japanese manga series written and illustrated by Yoshito Usui. Crayon Shin-chan made
+                                its first appearance in 1990 in a Japanese weekly magazine called Weekly Manga Action,
+                                which was published by Futabasha. Due to the accidental death of author Yoshito Usui,
+                                the manga in its original form ended on September 11, 2009.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://img.etimg.com/thumb/msid-91585647,width-650,imgsize-37952,,resizemode-4,quality-100/doctor-strange-2.jpg"
+                            class="card-img-top" style="object-fit: contain; height: 300px; background-color: black;"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Doctor Strange</h5>
+                            <p class="card-text">Doctor Strange is a practising sorcerer who gains his abilities from
+                                mystical entities such as Agamotto, Cyttorak, Ikonn, Oshtur, Raggadorr, and Watoomb, who
+                                lend their energies to spells. The Cloak of Levitation, which gives Strange the ability
+                                to fly, the Eye of Agamotto, an amulet whose light is used to counteract evil magic, the
+                                Book of the Vishanti, a grimoire containing extensive knowledge of white magic, and the
+                                Orb of Agamotto, a crystal ball used for clairvoyance are among the magical items that
+                                Strange also wields. Strange has demonstrated proficiency with a variety of magically
+                                summoned weapons, including swords and axes, in addition to his magical abilities. He is
+                                also trained in judo and other martial arts styles. Before nerve damage rendered his
+                                hands ineffective, Strange was a skilled neurosurgeon.</p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="https://images.hindustantimes.com/img/2021/08/08/1600x900/divya_1628418646757_1628418656375.JPG"
+                                class="card-img-top"
+                                style="object-fit: contain; height: 300px; background-color: black;" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Divya Agarwal</h5>
+                                <p class="card-text">Agarwal got her master's degree in journalism. She trained in dance
+                                    from Terence Lewis Dance Academy,and then opened her own dance academy called
+                                    Elevate Dance Institute.[3] She has choreographed several actresses like Ileana
+                                    D'Cruz, Sunny Leone and Shilpa Shetty. In 2010, she and a Pakistani choreographer
+                                    worked on choreography for the IPL 2010.
+                                    She had also participated in several beauty pageants. In 2015, she won the title of
+                                    "Miss Navi Mumbai". In 2016, she was crowned the winner of the Indian Princess
+                                    pageant She also won title of Miss India Tourism International 2017 and Miss
+                                    Tourism International 2017</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <!--  ***************** My Cards *****************  -->
 
@@ -353,8 +412,8 @@
     <script>
         const checkbox = document.getElementById('checkbox');
 
-        checkbox.addEventListener('change', ()=>{
-        document.body.classList.toggle('dark');
+        checkbox.addEventListener('change', () => {
+            document.body.classList.toggle('dark');
         })
     </script>
 </body>
