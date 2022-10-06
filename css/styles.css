@@ -3933,6 +3933,7 @@ textarea.form-control-lg {
 }
 
 .nav {
+  
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
@@ -4036,6 +4037,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+ 
 }
 .navbar > .container,
 .navbar > .container-fluid,
