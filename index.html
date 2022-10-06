@@ -28,7 +28,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        overflow: hidden;
+        overflow: auto;
         box-sizing: border-box;
         font-family: "Century Gothic";
       }
@@ -48,8 +48,9 @@
       }
       label {
         display: block;
+        margin-top: 0;
         height: 15px;
-        width: 60px;
+        width: 45px;
         position: relative;
         transform: rotate(90deg) translate(50px, 100px);
       }
@@ -80,7 +81,8 @@
       }
       .txt {
         position: relative;
-        transform: translatex(-50px);
+        margin-top: 15px;
+        transform: translatex(-60px);
       }
       .txt p:nth-child(1) {
         color: grey;
@@ -89,7 +91,7 @@
         transition: 0.5s;
       }
       #ChangeTheme:checked + span.slide:before {
-        transform: translatex(40px);
+        transform: translatex(25px);
       }
       /* if dark-mode class is added set this background */
       body.dark-mode {
@@ -102,6 +104,10 @@
       .dark-mode .txt p:nth-child(2) {
         color: grey;
         font-weight: bold;
+      }
+      .pNav {
+        margin-top: 0;
+        margin-bottom: 0;
       }
      
    </style>
@@ -122,8 +128,8 @@
                     <input type="checkbox" id="ChangeTheme" /> <span class="slide"></span>
                   </label>
                   <div class="txt">
-                    <p>Light</p>
-                    <p>Dark</p>
+                    <p class="pNav">Light</p>
+                    <p class="pnav">Dark</p>
                   </div>
 
             </div>
