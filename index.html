@@ -109,7 +109,32 @@
         margin-top: 0;
         margin-bottom: 0;
       }
+     /* scroll to top button css */
+    .to-top {
+      background: rgb(76, 97, 126);
      
+      position: fixed;
+      bottom: 16px;
+      right:32px;
+      width:50px;
+      height:50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size:32px;
+      color:#f1f3f4;
+      text-decoration: none;
+      opacity:0;
+      pointer-events: none;
+      transition: all .4s;
+    }
+    
+    .to-top.active {
+      bottom:32px;
+      pointer-events: auto;
+      opacity:1;
+    }
    </style>
 </head>
 
