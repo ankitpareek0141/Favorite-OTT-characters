@@ -1,1 +1,5 @@
-// Implement search logic by entering the character name 
+function doSearch(text) {
+    if (window.find(text)) {
+        console.log(window.find(text));
+    }
+}
