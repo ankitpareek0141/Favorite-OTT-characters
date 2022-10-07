@@ -18,6 +18,7 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
 
+<<<<<<< HEAD
    <style>
     body {
         margin: 0;
@@ -111,9 +112,98 @@
       }
      
    </style>
+=======
+    <style>
+        * {
+    box-sizing: border-box;
+    }
+    body.dark {
+    background-color: #292c35;
+    }
+    .checkbox {
+    opacity: 0;
+    position: absolute;
+    }
+
+    .label {
+    width: 50px;
+    height: 26px;
+    background-color:#111;
+    display: flex;
+    border-radius:50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    transform: scale(1.5);
+    }
+
+    .ball {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+    }
+
+    /*  target the elemenent after the label*/
+    .checkbox:checked + .label .ball{
+    transform: translateX(24px);
+    }
+
+    .fa-moon {
+    color: pink;
+    }
+
+    .fa-sun {
+    color: yellow;
+    }
+   /* scroll to top button css */
+    .to-top {
+  background: rgb(76, 97, 126);
+ 
+  position: fixed;
+  bottom: 16px;
+  right:32px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:32px;
+  color:#f1f3f4;
+  text-decoration: none;
+  opacity:0;
+  pointer-events: none;
+  transition: all .4s;
+}
+
+.to-top.active {
+  bottom:32px;
+  pointer-events: auto;
+  opacity:1;
+}
+
+    </style>
+>>>>>>> 5769b8528949b9c61c19ffaff9e0ebd92be31ca4
 </head>
 
 <body id="page-top">
+    <!-- Back to top button -->
+        <!-- <button
+        type="button"
+        class="btn btn-danger btn-floating btn-lg"
+        id="btn-back-to-top"
+        >
+        <i class="fas fa-arrow-up"></i>
+        </button> -->
+        <a href="#" class="to-top">
+            <i class="fas fa-chevron-up"></i>
+          </a>
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
         <div class="container">
@@ -369,6 +459,34 @@
                 </div>
               </div>
 
+
+
+                <div class="col">
+                    <div class="card h-100">
+                    <img src="https://i.pinimg.com/736x/72/69/f7/7269f76547cdb4634e307f7280b90e42.jpg" class="card-img-top" style="object-fit: contain; height: 300px; background-color: black;" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Frozen Elsa</h5>
+                        <p class="card-text">Queen Elsa (also known as The Snow Queen) is the deuteragonist of Disney's 2013 animated feature film Frozen and protagonist of Frozen II. She is the older sister of Princess (later Queen) Anna and was next in line for Arendelle's throne, until her powers over ice and snow led her to become the famous Snow Queen. </p>
+                </div>
+                </div>
+          </div>
+
+
+
+                <div class="col">
+                    <div class="card h-100">
+                      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Walter_White_S5B.png/220px-Walter_White_S5B.png" class="card-img-top" style="object-fit: contain; height: 300px; background-color: black;" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Walter White</h5>
+                        <p class="card-text">Walter was a skilled chemist and co-founder of a technology firm before he accepted a buy-out from his partners. Walt became a high-school chemistry teacher in Albuquerque, and barely making ends meet with his family with wife Skyler (Anna Gunn) and son Walt Jr. (RJ Mitte). At the start of the series, the day after his 50th birthday, Walt is diagnosed with Stage III lung cancer. </p>
+                   </div>
+                </div>
+              </div>
+
+
+
+
+
             </div>
             <!--  ***************** My Cards *****************  -->
 
@@ -377,6 +495,7 @@
 
         </div>
     </section>
+    
 
 
     <!-- Footer-->
