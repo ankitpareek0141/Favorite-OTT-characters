@@ -7,6 +7,44 @@
 // Scripts
 // 
 
+$.ajax({
+  url: '/js/characters.json',
+  type: 'GET',
+  success: function(data){ 
+    // console.log(data);
+    loadAllData(data);
+    checktheme();
+  },
+  error: function(err) {
+    console.log('error', err);
+    $('#all-characters').html('Unable to load data, please refresh the page & try again!');
+    checktheme();
+  }
+});
+
+function loadAllData(characters) {
+  characters.forEach(character => {
+    $('#all-characters').append(`
+      <div class="col">
+        <div class="card h-100">
+          <img src="${character.image}" class="card-img-top" style="
+              object-fit: contain;
+              width: auto;
+              height: 300px;
+              background-color: black;
+          " alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">${character.title}</h5>
+            <p class="card-text">
+              ${character.description}
+            </p>
+          </div>
+        </div>
+      </div>
+    `);
+  });  
+}
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
@@ -60,13 +98,15 @@ window.addEventListener('DOMContentLoaded', event => {
 
 var checkbox = document.getElementById("ChangeTheme"); //get the checkbox to a variable
 
-//check storage if dark mode was on or off
-if (sessionStorage.getItem("mode") == "dark") {
-  setBulb(false);
-  darkmode(); //if dark mode was on, run this funtion
-} else {
-  setBulb(true);
-  nodark(); //else run this funtion
+function checktheme() {
+  //check storage if dark mode was on or off
+  if (sessionStorage.getItem("mode") == "dark") {
+    setBulb(false);
+    darkmode(); //if dark mode was on, run this funtion
+  } else {
+    setBulb(true);
+    nodark(); //else run this funtion
+  }
 }
 
 //if the checkbox state is changed, run a funtion
