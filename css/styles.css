@@ -4521,6 +4521,7 @@ textarea.form-control-lg {
 }
 
 .card {
+  max-width: 412px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -4536,6 +4537,7 @@ textarea.form-control-lg {
   box-shadow: 0 10px 10px rgb(44, 44, 44);
   transform:translate(5px,5px);
   transform: scale3d(1.01, 1.01, 1.01);
+  transition: all 0.3s ease-in-out;
 }
 .card > hr {
   margin-right: 0;
@@ -4577,6 +4579,9 @@ textarea.form-control-lg {
   margin-bottom: 0;
 }
 
+.card-text {
+  text-align: justify;
+}
 .card-text:last-child {
   margin-bottom: 0;
 }
