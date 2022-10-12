@@ -62,7 +62,7 @@ $ git merge upstream/main
 $ git checkout -b new_branch_name
 ```
 
-2. Start developing! append new character details in `js/characters.json` file.
+2. Start developing! append new character details in `js/characters.js` file.
 ```
 {
     "image": "your_image_url",

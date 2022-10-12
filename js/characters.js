@@ -1,4 +1,4 @@
-[
+const ALL_CHARACTERS = [
     {
         "image": "https://i.insider.com/5cb3c8e96afbee373d4f2b62?width=700",
         "title": "John Snow",
@@ -254,4 +254,4 @@
         "title": "She Hulk",
         "description": "She-Hulk (Jennifer Walters) is a fictional character appearing in American comic books published by Marvel Comics. Created by writer Stan Lee and artist John Buscema. She-Hulk has been a member of the Avengers, the Fantastic Four, Heroes for Hire, the Defenders, Fantastic Force and S.H.I.E.L.D. As a highly skilled lawyer who became a superhero by accident, she frequently leverages her legal and personal experience to serve as legal counsel to various superheroes and other metahumans."
     }
-]
+];

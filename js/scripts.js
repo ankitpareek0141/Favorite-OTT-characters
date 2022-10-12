@@ -7,23 +7,8 @@
 // Scripts
 // 
 
-$.ajax({
-  url: '/js/characters.json',
-  type: 'GET',
-  success: function(data){ 
-    // console.log(data);
-    loadAllData(data);
-    checktheme();
-  },
-  error: function(err) {
-    console.log('error', err);
-    $('#all-characters').html('Unable to load data, please refresh the page & try again!');
-    checktheme();
-  }
-});
-
-function loadAllData(characters) {
-  characters.forEach(character => {
+function loadAllData() {
+  ALL_CHARACTERS.forEach(character => {
     $('#all-characters').append(`
       <div class="col-lg-4 col-md-6">
         <div class="card h-100">
@@ -47,6 +32,7 @@ function loadAllData(characters) {
 
 window.addEventListener('DOMContentLoaded', event => {
 
+  loadAllData();
     // Navbar shrink function
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');
