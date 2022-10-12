@@ -25,7 +25,7 @@ $.ajax({
 function loadAllData(characters) {
   characters.forEach(character => {
     $('#all-characters').append(`
-      <div class="col">
+      <div class="col-lg-4 col-md-6">
         <div class="card h-100">
           <img src="${character.image}" class="card-img-top" style="
               object-fit: contain;
