@@ -7,10 +7,12 @@
 // Scripts
 // 
 
-function loadAllData() {
-  ALL_CHARACTERS.forEach(character => {
+
+function loadAllData(characters) {
+  $('#all-characters').html('');
+  characters.forEach(character => {
     $('#all-characters').append(`
-      <div class="col-lg-4 col-md-6">
+      <div class="col">
         <div class="card h-100">
           <img src="${character.image}" class="card-img-top" style="
               object-fit: contain;
@@ -27,12 +29,40 @@ function loadAllData() {
         </div>
       </div>
     `);
-  });  
+  });
+
+  let len = characters.length;
+
+  if(!len) {
+    $('#all-characters').html('<div class="w-100">No match found!</div>');
+  }
+
+  let classNames = 'row-cols-lg-3 row-cols-md-1 row-cols-md-2 row-cols-md-3';
+
+  if(len > 2) {
+    $('#all-characters').removeClass(classNames).addClass('row-cols-lg-3 row-cols-md-2');
+  }
+
+  if(len < 3) {
+    $('#all-characters').removeClass(classNames).addClass('row-cols-md-2');
+  }
+
+  if(len < 2) {
+    $('#all-characters').removeClass(classNames).addClass('row-cols-md-1');
+  }
 }
+
+$('#SearchTxt').on('keyup', function() {
+  let str = $(this).val();
+  var re = new RegExp(`.*${str}.*`, 'i');
+  var found = ALL_CHARACTERS.filter(function(character) { return re.test(character.title) || re.test(character.description); });
+  loadAllData(found);
+});
 
 window.addEventListener('DOMContentLoaded', event => {
 
-  loadAllData();
+  loadAllData(ALL_CHARACTERS);
+
     // Navbar shrink function
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');
