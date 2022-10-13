@@ -248,5 +248,10 @@ const ALL_CHARACTERS = [
         "image": "https://images6.alphacoders.com/126/thumbbig-1262865.webp",
         "title": "She Hulk",
         "description": "She-Hulk (Jennifer Walters) is a fictional character appearing in American comic books published by Marvel Comics. Created by writer Stan Lee and artist John Buscema. She-Hulk has been a member of the Avengers, the Fantastic Four, Heroes for Hire, the Defenders, Fantastic Force and S.H.I.E.L.D. As a highly skilled lawyer who became a superhero by accident, she frequently leverages her legal and personal experience to serve as legal counsel to various superheroes and other metahumans."
+    },
+    {
+        "image": "https://images.alphacoders.com/111/1115467.jpg",
+        "title": "Jonas kahn ",
+        "description": "Dark is a German science fiction thriller television series co-created by Baran bo Odar and Jantje Friese.[5][6][7] It ran for three seasons from 2017 to 2020. The story follows characters from the fictional village of Winden, Germany, as they pursue the truth in the aftermath of a child's disappearance. They follow connections between four estranged families to unravel a sinister time travel conspiracy which spans several generations. The series explores the existential implications of time and its effect on human nature. It features an ensemble cast"
     }
 ];
