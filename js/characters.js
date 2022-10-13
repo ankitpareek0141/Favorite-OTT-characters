@@ -40,7 +40,7 @@ const ALL_CHARACTERS = [
         "description": "Shaktiman."
     },
     {
-        "image": "https://static.wikia.nocookie.net/ben10/images/4/41/Humungousaur_omniverse_official.png/revision/latest?cb=20220727052611",
+        "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/04fd096e-205c-4c04-bdde-7ce9bc718319/de5dt7f-f51341f2-024f-46b0-b0c8-efdd8717b66f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA0ZmQwOTZlLTIwNWMtNGMwNC1iZGRlLTdjZTliYzcxODMxOVwvZGU1ZHQ3Zi1mNTEzNDFmMi0wMjRmLTQ2YjAtYjBjOC1lZmRkODcxN2I2NmYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9jsk9m5zUlOaIlV9C_MyYhcAoIjCDNla2STuf1Tg-xk",
         "title": "Humungousaur",
         "description": "Humungousaur is the Omnitrix's DNA sample of a Vaxasaurian from the\n                                planet Terradino.\n                                it is one of the ten alien's in Ben 10's omnitrix"
     },
@@ -95,7 +95,7 @@ const ALL_CHARACTERS = [
         "description": "Newton Artemis Fido \"Newt\" Scamander,[2] O.M. (Second Class), (b. 24 February[1] 1897)[2] was an English wizard, famed Magizoologist and the author of Fantastic Beasts and Where to Find Them. Early in life, Scamander developed an interest in magical creatures, influenced by his mother's breeding of Hippogriffs."
     },
     {
-        "image": "https://images.app.goo.gl/8BwajPWtrddkZiNV7",
+        "image": "https://pbs.twimg.com/media/EMue68ZXUAIN6TZ.jpg",
         "title": "Kinsey Locke",
         "description": "Kinsey Locke is one of the three main protagonists of Netflix Locke &\n                                Key. As the only daughter of Locke family, she changes her appearance upon return to\n                                Matheson in hopes of blending in with the other locals. Unbeknownst to her—or anyone\n                                around her—her father gifted her the Anywhere Key in a gold bracelet worn around her\n                                wrist.She is played by Emilia Jone"
     },
@@ -140,12 +140,12 @@ const ALL_CHARACTERS = [
         "description": "He is a vampire in vampire diaries, who is\n                                part of a love triangle between his brother\n                                Stefan and a female vampire named Katherine\n                                Pierce whom they were both compelled to love\n                                when they were still human. A century after\n                                Damon and Stefan leave Mystic Falls, they\n                                both return and meet Elena Gilbert, a mortal\n                                who looks exactly like Katherine."
     },
     {
-        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.toiimg.com%2Fphoto%2Fmsid-88522963%2F88522963.jpg&imgrefurl=https%3A%2F%2Ftimesofindia.indiatimes.com%2Fentertainment%2Fhindi%2Fbollywood%2Fnews%2Fmanoj-bajpayee-pankaj-tripathis-journey-has-been-inspiring-i-can-relate-to-him-quite-a-lot%2Farticleshow%2F88522963.cms&tbnid=mhCm9uh9EcDEWM&vet=12ahUKEwi81q_X48v6AhX3gGMGHSn7BCsQMygCegUIARDgAQ..i&docid=GNXnUMEeltWpTM&w=1200&h=900&q=manoj%20bajpayee&ved=2ahUKEwi81q_X48v6AhX3gGMGHSn7BCsQMygCegUIARDgAQ",
+        "image": "https://resize.indiatvnews.com/en/resize/oldbucket/715_-/entertainmentbollywood/_Gangs_of_Wasse4390.jpg",
         "title": "Manoj Bajpayee",
         "description": "Manoj Bajpayee is a phenomenal actor but\n                            thanks to the wide acceptance of the OTT\n                            platforms, the Aligarh actor hit the\n                            mainstream spotlight with The Family\n                            Man, much like he did in his early days\n                            with Satya. While he has appeared in\n                            critically acclaimed films like Pinjar,\n                            Gali Guleiyan and Gangs of Wasseypur,\n                            the so-called commercial cinema has\n                            roped in his talent for films like\n                            Satyameva Jayate and Baaghi 2 among\n                            others. With The Family Man, Bajpayee\n                            led the cast from the front and since he\n                            was present in more or less all the\n                            story arcs, his ubiquitous presence made\n                            the show all the more delightful."
     },
     {
-        "image": "https://static.wikia.nocookie.net/lucifer/images/0/09/Lucifer_portrait.png/revision/latest?cb=20211006235903",
+        "image": "https://i1.sndcdn.com/avatars-m5cIfzEBrTLJt0yg-LhRh5A-t500x500.jpg",
         "title": "Lucifer Morningstar",
         "description": "Lucifer Morningstar, created as Samael\n                            (Hebrew: סַמָּאֵל) and also known as the\n                            Lightbringer, is the titular protagonist of\n                            the TV Series, Lucifer. He is an Archangel\n                            and the twin brother of fellow Archangel,\n                            Michael. Following a failed rebellion\n                            against his Father, Lucifer was banished\n                            from Heaven and forced to oversee the\n                            torture of damned Human souls for eons as\n                            the Ruler of Hell. During his time as the\n                            King of Hell, Lucifer tempted Eve in the\n                            Garden of Eden, leading to Eve and her\n                            husband Adam being banished to live on Earth\n                            for the rest of their lives. After some\n                            visits to Earth, He would reunite with his\n                            old friend, Lilith in 1946 to help her find\n                            her ring. Lucifer was ultimately gifted the\n                            ring, along with Lilith's Immortality.\n                            Widely known as the Devil or Satan by\n                            Humans, Lucifer is blamed for the sins of\n                            mankind."
     },
