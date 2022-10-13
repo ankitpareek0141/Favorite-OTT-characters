@@ -37,7 +37,7 @@ const ALL_CHARACTERS = [
     {
         "image": "https://www.pinkvilla.com/files/styles/large/public/shaktimanunknownfactsmain.jpg",
         "title": "Shaktimaan",
-        "description": "Shaktiman."
+        "description": "Shaktimaan is an Indian superhero television series that aired on DD National from 13 September 1997 to 27 March 2005. Produced by Mukesh Khanna and directed by Dinkar Jani. The series also aired on several other Indian TV channels in various languages: Pogo in English, Tarang in Odia, Chutti TV in Tamil, Kochu TV in Malayalam, and STAR Utsav and Dangal in Hindi.."
     },
     {
         "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/04fd096e-205c-4c04-bdde-7ce9bc718319/de5dt7f-f51341f2-024f-46b0-b0c8-efdd8717b66f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA0ZmQwOTZlLTIwNWMtNGMwNC1iZGRlLTdjZTliYzcxODMxOVwvZGU1ZHQ3Zi1mNTEzNDFmMi0wMjRmLTQ2YjAtYjBjOC1lZmRkODcxN2I2NmYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9jsk9m5zUlOaIlV9C_MyYhcAoIjCDNla2STuf1Tg-xk",

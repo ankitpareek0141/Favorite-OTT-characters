@@ -4533,11 +4533,19 @@ textarea.form-control-lg {
   border-radius: 0.5rem;
 }
 .card:hover {
+ 
   background-color: #dddddd;
   box-shadow: 0 10px 10px rgb(44, 44, 44);
   transform:translate(5px,5px);
   transform: scale3d(1.01, 1.01, 1.01);
   transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+.card img:hover{
+  object-fit: contain;
+  scale: 1.1;
+  transition: all 0.5s ease-in-out;
+  
 }
 .card > hr {
   margin-right: 0;
