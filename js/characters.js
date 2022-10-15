@@ -253,5 +253,20 @@ const ALL_CHARACTERS = [
         "image": "https://images.alphacoders.com/111/1115467.jpg",
         "title": "Jonas kahn ",
         "description": "Dark is a German science fiction thriller television series co-created by Baran bo Odar and Jantje Friese.[5][6][7] It ran for three seasons from 2017 to 2020. The story follows characters from the fictional village of Winden, Germany, as they pursue the truth in the aftermath of a child's disappearance. They follow connections between four estranged families to unravel a sinister time travel conspiracy which spans several generations. The series explores the existential implications of time and its effect on human nature. It features an ensemble cast"
+    },
+    {
+        "image": "https://imgs.search.brave.com/v_yMLtKstKMDThzCCGP6qNo2S43RmzbBj3rgyqnUxvM/rs:fit:300:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JRi4x/eDhaZjQ0WEh2S1Zr/ZnBXU1duaXl3JnBp/ZD1BcGk",
+        "title": "Gal Gadot",
+        "description": "Gal Gadot-Varsano (born 30 April 1985) is an Israeli actress and model. At age 18, she was crowned Miss Israel 2004. She then served in the Israel Defense Forces for two years as a combat fitness instructor, whereafter she began studying at IDC Herzliya while building her modeling and acting careers. Her first international film performance was in Fast & Furious (2009), where she appeared as Gisele Yashar; she reprised the role of Yashar in several subsequent installments of The Fast Saga. Gadot went on to achieve global stardom for her portrayal of Wonder Woman in the DC Extended Universe, including in Batman v Superman: Dawn of Justice (2016), Wonder Woman (2017) and Zack Snyder's Justice League(2021). She has since starred in the Netflix action-comedy film Red Notice (2021) and the mystery film Death on the Nile (2022)."
+    },
+    {
+        "image": "https://imgs.search.brave.com/exA-EHn9E68qzD73ZUTT9kUDwaRzvPuZuBRez-0qapc/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5k/eGE3dlFSREZmX0Rm/T2RXRFJOeDVBSGFF/SyZwaWQ9QXBp",
+        "title": "Dylan O'Brien",
+        "description": "Dylan Rhodes O'Brien (born August 26, 1991) is an American actor. His first major role was Stiles Stilinski on the MTV supernatural drama Teen Wolf (2011–2017), where he was a series regular during all six seasons. He achieved further prominence for his lead role of Thomas in the Maze Runner science fiction film trilogy (2014–2018), which led to more film appearances. He played Deepwater Horizon explosion survivor Caleb Holloway in the disaster film Deepwater Horizon (2016), fictional counterterrorist Mitch Rapp in the action thriller American Assassin (2017), and title character in the Transformers installment Bumblebee (2018). He also played the lead in the adventure film Love and Monsters (2020)"
+    },
+    {
+        "image": "https://imgs.search.brave.com/M-6YaxC4FngDNKQrs3UZNFfPzPIdhQEfuIYms098QjY/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5u/WEdfT2ZSMFNhM0JB/cGlfaDRKUU1BSGFF/SyZwaWQ9QXBp",
+        "title": "Scarlett Johansson",
+        "description": "Scarlett Ingrid Johansson (born November 22, 1984) is an American actress. The world's highest-paid actress in 2018 and 2019, she has featured multiple times on the Forbes Celebrity 100 list. Time magazine named her one of the 100 most influential people in the world in 2021. Her films have grossed over $14.3 billion worldwide, making Johansson the highest-grossing box office star of all time. She has received various accolades, including a Tony Award and a British Academy Film Award, in addition to nominations for two Academy Awards and five Golden Globe Awards."
     }
 ];
