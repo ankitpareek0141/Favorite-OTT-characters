@@ -55,7 +55,9 @@ function loadAllData(characters) {
 
 $("#SearchTxt").on("keyup", function () {
   let str = $(this).val();
-  var re = new RegExp(`.*${str}.*`, "i");
+  // var re = new RegExp(`.*${str}.*`, "i");
+  // add a trim function to str
+  var re = new RegExp(`.*${str.trim()}.*`, "i");
   var found = ALL_CHARACTERS.filter(function (character) {
     return re.test(character.title) || re.test(character.description);
   });
