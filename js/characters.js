@@ -1,5 +1,10 @@
 const ALL_CHARACTERS = [
     {
+        "image": "https://media.starbiz.net/2020/09/10-facts-you-will-be-interested-in-talent-actress-seo-ye-ji.jpg",
+        "title": "Seo Yea-ji",
+        "description": "Seo Ye-ji is a South Korean actress. She began her acting career in the sitcom Potato Star 2013QR3. This was followed by major roles in period drama Diary of a Night Watchman, thriller Last, and fantasy Moorim School: Saga of the Brave. Her notable lead roles in television series include Save Me, and Lawless Lawyer."
+    },
+    {
         "image": "https://1.bp.blogspot.com/-c4qeK9vircE/YH4_DAyFIhI/AAAAAAAAKvA/NLIwau9rUNwBezMb2gnwdLFmpLPJ5pF2wCLcBGAsYHQ/s2048/210104_49.jpg",
         "title": "Vincenzo Cassano",
         "description": "At the age of eight, Park Joo-hyung was adopted by an Italian family. He later joins the mafia and is adopted by Don Fabio, head of the Cassano Family. Renamed “Vincenzo Cassano” he becomes a lawyer, a consigliere for the mafia, and Don Fabio's right-hand man. After Fabio dies, Paolo, Fabio's biological son and the new leader of the Cassano Family attempts to kill Vincenzo."
