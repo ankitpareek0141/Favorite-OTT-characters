@@ -1,5 +1,10 @@
 const ALL_CHARACTERS = [
     {
+        "image": "https://1.bp.blogspot.com/-c4qeK9vircE/YH4_DAyFIhI/AAAAAAAAKvA/NLIwau9rUNwBezMb2gnwdLFmpLPJ5pF2wCLcBGAsYHQ/s2048/210104_49.jpg",
+        "title": "Vincenzo Cassano",
+        "description": "At the age of eight, Park Joo-hyung was adopted by an Italian family. He later joins the mafia and is adopted by Don Fabio, head of the Cassano Family. Renamed “Vincenzo Cassano” he becomes a lawyer, a consigliere for the mafia, and Don Fabio's right-hand man. After Fabio dies, Paolo, Fabio's biological son and the new leader of the Cassano Family attempts to kill Vincenzo."
+    },
+    {
         "image": "https://i.insider.com/5cb3c8e96afbee373d4f2b62?width=700",
         "title": "John Snow",
         "description": "Jon Snow is a fictional character in the A\n                                Song of Ice and Fire series of fantasy\n                                novels by American author George R. R.\n                                Martin, and its television adaptation Game\n                                of Thrones, in which he was portrayed by\n                                English actor Kit Harington. In the novels,\n                                he is a prominent point of view character."
@@ -251,7 +256,7 @@ const ALL_CHARACTERS = [
     },
     {
         "image": "https://images.alphacoders.com/111/1115467.jpg",
-        "title": "Jonas kahn ",
+        "title": "Jonas kahn",
         "description": "Dark is a German science fiction thriller television series co-created by Baran bo Odar and Jantje Friese.[5][6][7] It ran for three seasons from 2017 to 2020. The story follows characters from the fictional village of Winden, Germany, as they pursue the truth in the aftermath of a child's disappearance. They follow connections between four estranged families to unravel a sinister time travel conspiracy which spans several generations. The series explores the existential implications of time and its effect on human nature. It features an ensemble cast"
     }
 ];
