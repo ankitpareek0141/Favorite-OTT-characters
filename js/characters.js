@@ -263,5 +263,10 @@ const ALL_CHARACTERS = [
         "image": "https://images.alphacoders.com/111/1115467.jpg",
         "title": "Jonas kahn",
         "description": "Dark is a German science fiction thriller television series co-created by Baran bo Odar and Jantje Friese.[5][6][7] It ran for three seasons from 2017 to 2020. The story follows characters from the fictional village of Winden, Germany, as they pursue the truth in the aftermath of a child's disappearance. They follow connections between four estranged families to unravel a sinister time travel conspiracy which spans several generations. The series explores the existential implications of time and its effect on human nature. It features an ensemble cast"
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/22/Son_Ye-jin_in_2019.jpg",
+        "title": "Son Ye-jin",
+        "description": "Son Ye-jin (born Son Eon-jin on January 11, 1982) is a South Korean actress. She rose to fame in 2003 for The Classic and Summer Scent, which were followed by the commercially successful A Moment to Remember (2004) and April Snow (2005). As of her debut in South Korean films, Ye-jin Son became one of the stars of Chungmoore."
     }
 ];
