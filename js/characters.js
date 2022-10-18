@@ -264,4 +264,9 @@ const ALL_CHARACTERS = [
         "title": "Jonas kahn",
         "description": "Dark is a German science fiction thriller television series co-created by Baran bo Odar and Jantje Friese.[5][6][7] It ran for three seasons from 2017 to 2020. The story follows characters from the fictional village of Winden, Germany, as they pursue the truth in the aftermath of a child's disappearance. They follow connections between four estranged families to unravel a sinister time travel conspiracy which spans several generations. The series explores the existential implications of time and its effect on human nature. It features an ensemble cast"
     }
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOx9iOQDGngTtWqnTkMIvOyqIHClRIaN-zog&usqp=CAU",
+        "title": "Agastya Rao",
+        "description": "For Sidharth Shukla, it was the character of Agastya that got him on board Broken But Beautiful 3. In an exclusive chat with indianexpress.com, the actor shared that he could relate to his role, and since the show has been made in a very 'realistic way', he picked it up for his digital debut."
+    }
 ];
