@@ -280,7 +280,7 @@ const ALL_CHARACTERS = [
         "description": "For Sidharth Shukla, it was the character of Agastya that got him on board Broken But Beautiful 3. In an exclusive chat with indianexpress.com, the actor shared that he could relate to his role, and since the show has been made in a very 'realistic way', he picked it up for his digital debut."
     }
      {
-        "image": "https://static.wikia.nocookie.net/sacredgames/images/a/aa/Images_%282%29-0.jpeg/revision/latest/scale-to-width-down/350?cb=20200810092403",
+        "image": "assets/img/ganesh_gaitonde.webp",
         "title": "Ganesh Gaitonde",
         "description": "Ganesh Gaitonde (Played By Nawazuddin Siddiqui) was an Indian gangster and is the main Protagonist of Sacred Games along with Sartaj Singh. He was the rival don of Suleiman Isa. Despite being a top mafia don, it is revealed in the end that he was used as a pawn in Guru ji's plan to destroy Mumbai for over 20 years."
     }
