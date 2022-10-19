@@ -10,6 +10,11 @@ const ALL_CHARACTERS = [
         "description": "At the age of eight, Park Joo-hyung was adopted by an Italian family. He later joins the mafia and is adopted by Don Fabio, head of the Cassano Family. Renamed “Vincenzo Cassano” he becomes a lawyer, a consigliere for the mafia, and Don Fabio's right-hand man. After Fabio dies, Paolo, Fabio's biological son and the new leader of the Cassano Family attempts to kill Vincenzo."
     },
     {
+        "image": "https://6.vikiplatform.com/image/69a2b3861b594adcb4f7062a0ca128c6.jpg",
+        "title": "Xing Fei",
+        "description": "Xing Fei (Chinese: 邢菲; pinyin: Xíng fēi, born October 1, 1994), also known as Fair Xing, is a Chinese actress and singer. She is best known for her roles in the dramas Master Devil Do Not Kiss Me (2017), Miracle Healer (2017), Miracle Healer Season 2 (2018), Put Your Head on My Shoulder (2019), Your Highness Class Monitor (2019), Forget You Remember Love (2020), Moon Brightens for you (2020), My Little Happiness (2021) and Miss Crow with Mr Lizard (2021)."
+    },
+    {
         "image": "https://i.insider.com/5cb3c8e96afbee373d4f2b62?width=700",
         "title": "John Snow",
         "description": "Jon Snow is a fictional character in the A\n                                Song of Ice and Fire series of fantasy\n                                novels by American author George R. R.\n                                Martin, and its television adaptation Game\n                                of Thrones, in which he was portrayed by\n                                English actor Kit Harington. In the novels,\n                                he is a prominent point of view character."
