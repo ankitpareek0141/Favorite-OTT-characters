@@ -263,5 +263,10 @@ const ALL_CHARACTERS = [
         "image": "https://images.alphacoders.com/111/1115467.jpg",
         "title": "Jonas kahn",
         "description": "Dark is a German science fiction thriller television series co-created by Baran bo Odar and Jantje Friese.[5][6][7] It ran for three seasons from 2017 to 2020. The story follows characters from the fictional village of Winden, Germany, as they pursue the truth in the aftermath of a child's disappearance. They follow connections between four estranged families to unravel a sinister time travel conspiracy which spans several generations. The series explores the existential implications of time and its effect on human nature. It features an ensemble cast"
+    },
+    {
+        "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/04/Shanks.jpg",
+        "title": "Shanks",
+        "description": "Shanks Red-Haired Shanks is a legendary and powerful pirate in the Grand Line, being the captain of the Red Haired Pirate Crew and one of the Four Emperors in the second half of the grand line."
     }
 ];
