@@ -6,20 +6,18 @@
 //
 // Scripts
 // 
-
-
 function loadAllData(characters) {
   $('#all-characters').html('');
   characters.forEach(character => {
     $('#all-characters').append(`
       <div class="col">
         <div class="card h-100">
-          <img src="${character.image}" class="card-img-top" style="
-              object-fit: contain;
-              width: auto;
-              height: 300px;
-              background-color: black;
-          " alt="..." />
+            <img data-img="${character.image}" src="${character.image}" class="card-img-top" style="
+                object-fit: contain;
+                width: auto;
+                height: 300px;
+                background-color: black;
+            " alt="..." /> 
           <div class="card-body">
             <h5 class="card-title">${character.title}</h5>
             <p class="card-text">
@@ -50,6 +48,26 @@ function loadAllData(characters) {
   if(len < 2) {
     $('#all-characters').removeClass(classNames).addClass('row-cols-md-1');
   }
+  let bp = BiggerPicture({
+    target: document.body,
+    noPinch: true
+  })
+
+  let sScale = 0.5;
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    sScale = 1;
+  }
+  
+  // open (will be a child of the target element above)
+
+  $('#all-characters img').on('click', function (e) {
+    e.preventDefault()
+    bp.open({
+      items: e.target,
+      scale: sScale
+    })
+  })
+
 }
 
 $('#SearchTxt').on('keyup', function() {
