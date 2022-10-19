@@ -11532,8 +11532,7 @@ html {
 }
 
 @media only screen and (max-width: 600px) {
-  #footer {
-    position: fixed;
-    bottom: 0;
-  }
+  #footer img {
+    width: 320px;
+  }  
 }
