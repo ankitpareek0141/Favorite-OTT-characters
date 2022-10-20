@@ -273,7 +273,7 @@ const ALL_CHARACTERS = [
         "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/04/Shanks.jpg",
         "title": "Shanks",
         "description": "Shanks Red-Haired Shanks is a legendary and powerful pirate in the Grand Line, being the captain of the Red Haired Pirate Crew and one of the Four Emperors in the second half of the grand line."
-    }
+    },
     {
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOx9iOQDGngTtWqnTkMIvOyqIHClRIaN-zog&usqp=CAU",
         "title": "Agastya Rao",
