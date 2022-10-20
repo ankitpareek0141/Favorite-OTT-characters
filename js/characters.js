@@ -20,11 +20,6 @@ const ALL_CHARACTERS = [
         "description": "Jon Snow is a fictional character in the A\n                                Song of Ice and Fire series of fantasy\n                                novels by American author George R. R.\n                                Martin, and its television adaptation Game\n                                of Thrones, in which he was portrayed by\n                                English actor Kit Harington. In the novels,\n                                he is a prominent point of view character."
     },
     {
-        "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2022/07/Sansa-Starks-10-Best-Decisions.jpg",
-        "title": "Sansa Stark",
-        "description": "Sansa Stark is a fictional character in the\n                                A Song of Ice and Fire series of epic\n                                fantasy novels by American author George R.\n                                R. Martin, and its television adaptation\n                                Game of Thrones, where she was portrayed by\n                                English actress Sophie Turner."
-    },
-    {
         "image": "https://user-images.githubusercontent.com/110908424/194935422-a78e6e72-a191-4f0c-a7a6-b3620ec5256b.png",
         "title": "Maeve Wiley",
         "description": "Maeve is an intelligent and sarcastic social outcast and “bad girl”\n                                at Moordale\n                                Secondary School, who befriends Otis Milburn in sixth-form when the two begin a sex\n                                therapy clinic to\n                                make money off of their peers. She is a member of the Aptitude Scheme and Quiz Heads."
