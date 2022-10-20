@@ -50,6 +50,11 @@ const ALL_CHARACTERS = [
         "description": "Lancel Lannister is the son of Ser Kevan Lannister and the nephew of Lord Tywin Lannister, the head of House Lannister and Lord of Casterly Rock. He is the first cousin of Jaime, Cersei, and Tyrion Lannister. He has the family blond hair and looks similar to his cousin Jaime. He was a squire to King Robert Baratheon. Robert, Renly, and Ser Barristan go on a hunt, frequently giving Robert wine and taking advantage of Robert's altercation with Renly when discussing Robert's ability to enjoy whores no matter the political background."
     },
     {
+        "image": "https://m.media-amazon.com/images/M/MV5BYzAzYjU0ZDItMmZmNi00YzI3LWI0MTgtMDVhMzkwNTRkOTYxXkEyXkFqcGdeQWFybm8@._V1_QL75_UY281_CR0,0,500,281_.jpg",
+        "title": "Super Mario",
+        "description": "Mario has appeared in over 200 video games since his creation. Depicted as a short, pudgy, Italian plumber who resides in the Mushroom Kingdom, his adventures generally center on rescuing Princess Peach from the Koopa villain Bowser. Mario has access to a variety of power-ups that give him different abilities.",
+    },
+    {
         "image": "https://www.pinkvilla.com/files/styles/large/public/shaktimanunknownfactsmain.jpg",
         "title": "Shaktimaan",
         "description": "Shaktiman."
