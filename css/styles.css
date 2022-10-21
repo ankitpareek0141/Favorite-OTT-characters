@@ -170,7 +170,7 @@ abbr[data-bs-original-title] {
 address {
   margin-bottom: 1rem;
   font-style: normal;
-  line-height: inherit;
+  line-height: 3rem;
 }
 
 ol,
@@ -221,8 +221,8 @@ mark, .mark {
 
 sub,
 sup {
-  position: relative;
-  font-size: 0.75em;
+  position: absolute;
+  font-size:1.5em;
   line-height: 0;
   vertical-align: baseline;
 }
@@ -236,11 +236,11 @@ sup {
 }
 
 a {
-  color: #1abc9c;
+  color: #1abc6b;
   text-decoration: underline;
 }
 a:hover {
-  color: #15967d;
+  color: #1abca4;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -348,9 +348,9 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
+  font-family: Sans-serif;
+  font-size: 40rem;
+  line-height: 1rem;
 }
 
 button,
