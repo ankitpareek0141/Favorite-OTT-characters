@@ -28,14 +28,16 @@ const ALL_CHARACTERS = [
         title: 'Maeve Wiley',
         description:
             'Maeve is an intelligent and sarcastic social outcast and “bad girl”\n                                at Moordale\n                                Secondary School, who befriends Otis Milburn in sixth-form when the two begin a sex\n                                therapy clinic to\n                                make money off of their peers. She is a member of the Aptitude Scheme and Quiz Heads.',
-        "image": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/3/35/IronMan-EndgameProfile.jpg/revision/latest/scale-to-width-down/350?cb=20190423175213",
-        "title": "Iron Man",
-        "description": "Iron Man is a superhero appearing in American comic books published by Marvel Comics. The character was co-created by writer and editor Stan Lee, developed by scripter Larry Lieber, and designed by artists Don Heck and Jack Kirby. The character made his first appearance in Tales of Suspense #39 (cover dated March 1963), and received his own title in Iron Man #1 (May 1968). Also in 1963, the character founded the Avengers alongside Thor, Ant-Man, Wasp and the Hulk."
+        image: 'https://static.wikia.nocookie.net/marvelcinematicuniverse/images/3/35/IronMan-EndgameProfile.jpg/revision/latest/scale-to-width-down/350?cb=20190423175213',
+        title: 'Iron Man',
+        description:
+            'Iron Man is a superhero appearing in American comic books published by Marvel Comics. The character was co-created by writer and editor Stan Lee, developed by scripter Larry Lieber, and designed by artists Don Heck and Jack Kirby. The character made his first appearance in Tales of Suspense #39 (cover dated March 1963), and received his own title in Iron Man #1 (May 1968). Also in 1963, the character founded the Avengers alongside Thor, Ant-Man, Wasp and the Hulk.',
     },
     {
-        "image": "https://user-images.githubusercontent.com/110908424/194935422-a78e6e72-a191-4f0c-a7a6-b3620ec5256b.png",
-        "title": "Maeve Wiley",
-        "description": "Maeve is an intelligent and sarcastic social outcast and “bad girl”\n                                at Moordale\n                                Secondary School, who befriends Otis Milburn in sixth-form when the two begin a sex\n                                therapy clinic to\n                                make money off of their peers. She is a member of the Aptitude Scheme and Quiz Heads."
+        image: 'https://user-images.githubusercontent.com/110908424/194935422-a78e6e72-a191-4f0c-a7a6-b3620ec5256b.png',
+        title: 'Maeve Wiley',
+        description:
+            'Maeve is an intelligent and sarcastic social outcast and “bad girl”\n                                at Moordale\n                                Secondary School, who befriends Otis Milburn in sixth-form when the two begin a sex\n                                therapy clinic to\n                                make money off of their peers. She is a member of the Aptitude Scheme and Quiz Heads.',
     },
     {
         image: 'https://i.scdn.co/image/ab67706c0000bebb9e4e96e77aecc3bbda585739',
@@ -347,15 +349,16 @@ const ALL_CHARACTERS = [
         description:
             'Nancy Wheeler, portrayed by Natalia Dyer, is a main character in Stranger Things. Nancy is a young adult and an aspiring journalist, and an ally to The Party. She is the older sister of Mike Wheeler, the former girlfriend of Steve Harrington, and the current girlfriend of Jonathan Byers.',
     },
-
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOx9iOQDGngTtWqnTkMIvOyqIHClRIaN-zog&usqp=CAU",
-        "title": "Agastya Rao",
-        "description": "For Sidharth Shukla, it was the character of Agastya that got him on board Broken But Beautiful 3. In an exclusive chat with indianexpress.com, the actor shared that he could relate to his role, and since the show has been made in a very 'realistic way', he picked it up for his digital debut."
+    {
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOx9iOQDGngTtWqnTkMIvOyqIHClRIaN-zog&usqp=CAU',
+        title: 'Agastya Rao',
+        description:
+            "For Sidharth Shukla, it was the character of Agastya that got him on board Broken But Beautiful 3. In an exclusive chat with indianexpress.com, the actor shared that he could relate to his role, and since the show has been made in a very 'realistic way', he picked it up for his digital debut.",
     },
     {
-        "image": "https://github.com/amit-c-ai/Naruto-Shippuden/blob/main/Images/naruto.png?raw=true",
-        "title": "Naruto Uzumaki",
-        "description": "Naruto Uzumaki is the titular protagonist of the manga Naruto, created by Masashi Kishimoto. As the series progresses, he is a young ninja from the fictional village of Konohagakure (Hidden Leaf Village). The villagers ridicule and ostracize Naruto on account of the Nine-Tailed Demon Fox—a malevolent creature that attacked Konohagakure—that was sealed away in Naruto's body. Despite this, he aspires to become his village's leader, the Hokage, in order to receive their approval."
-    }
-
+        image: 'https://github.com/amit-c-ai/Naruto-Shippuden/blob/main/Images/naruto.png?raw=true',
+        title: 'Naruto Uzumaki',
+        description:
+            "Naruto Uzumaki is the titular protagonist of the manga Naruto, created by Masashi Kishimoto. As the series progresses, he is a young ninja from the fictional village of Konohagakure (Hidden Leaf Village). The villagers ridicule and ostracize Naruto on account of the Nine-Tailed Demon Fox—a malevolent creature that attacked Konohagakure—that was sealed away in Naruto's body. Despite this, he aspires to become his village's leader, the Hokage, in order to receive their approval.",
+    },
 ];
