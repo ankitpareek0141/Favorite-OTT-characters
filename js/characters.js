@@ -278,5 +278,10 @@ const ALL_CHARACTERS = [
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOx9iOQDGngTtWqnTkMIvOyqIHClRIaN-zog&usqp=CAU",
         "title": "Agastya Rao",
         "description": "For Sidharth Shukla, it was the character of Agastya that got him on board Broken But Beautiful 3. In an exclusive chat with indianexpress.com, the actor shared that he could relate to his role, and since the show has been made in a very 'realistic way', he picked it up for his digital debut."
+    },
+    {
+        "image": "https://github.com/amit-c-ai/Naruto-Shippuden/blob/main/Images/naruto.png?raw=true",
+        "title": "Naruto Uzumaki",
+        "description": "Naruto Uzumaki is the titular protagonist of the manga Naruto, created by Masashi Kishimoto. As the series progresses, he is a young ninja from the fictional village of Konohagakure (Hidden Leaf Village). The villagers ridicule and ostracize Naruto on account of the Nine-Tailed Demon Fox—a malevolent creature that attacked Konohagakure—that was sealed away in Naruto's body. Despite this, he aspires to become his village's leader, the Hokage, in order to receive their approval."
     }
 ];
