@@ -294,4 +294,5 @@ const ALL_CHARACTERS = [
         "title": "Himmat Singh",
         "description": "The Himmat Singh follows the origins of its titular character, even before he became a prodigy at R&AW and deployed his squad of hand-picked hidden agents around the world to track down Ikhlaq Khan, the mysterious strategist behind the majority of India’s terror attacks."
     }
+
 ];
