@@ -20,11 +20,6 @@ const ALL_CHARACTERS = [
         "description": "Jon Snow is a fictional character in the A\n                                Song of Ice and Fire series of fantasy\n                                novels by American author George R. R.\n                                Martin, and its television adaptation Game\n                                of Thrones, in which he was portrayed by\n                                English actor Kit Harington. In the novels,\n                                he is a prominent point of view character."
     },
     {
-        "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2022/07/Sansa-Starks-10-Best-Decisions.jpg",
-        "title": "Sansa Stark",
-        "description": "Sansa Stark is a fictional character in the\n                                A Song of Ice and Fire series of epic\n                                fantasy novels by American author George R.\n                                R. Martin, and its television adaptation\n                                Game of Thrones, where she was portrayed by\n                                English actress Sophie Turner."
-    },
-    {
         "image": "https://user-images.githubusercontent.com/110908424/194935422-a78e6e72-a191-4f0c-a7a6-b3620ec5256b.png",
         "title": "Maeve Wiley",
         "description": "Maeve is an intelligent and sarcastic social outcast and “bad girl”\n                                at Moordale\n                                Secondary School, who befriends Otis Milburn in sixth-form when the two begin a sex\n                                therapy clinic to\n                                make money off of their peers. She is a member of the Aptitude Scheme and Quiz Heads."
@@ -48,6 +43,11 @@ const ALL_CHARACTERS = [
         "image": "https://images.squarespace-cdn.com/content/v1/52fc05c9e4b08fc45bd99090/1432319060004-RJZ96P7XM1NV473CXTBR/image-asset.png",
         "title": "Lancel Lannister",
         "description": "Lancel Lannister is the son of Ser Kevan Lannister and the nephew of Lord Tywin Lannister, the head of House Lannister and Lord of Casterly Rock. He is the first cousin of Jaime, Cersei, and Tyrion Lannister. He has the family blond hair and looks similar to his cousin Jaime. He was a squire to King Robert Baratheon. Robert, Renly, and Ser Barristan go on a hunt, frequently giving Robert wine and taking advantage of Robert's altercation with Renly when discussing Robert's ability to enjoy whores no matter the political background."
+    },
+    {
+        "image": "https://m.media-amazon.com/images/M/MV5BYzAzYjU0ZDItMmZmNi00YzI3LWI0MTgtMDVhMzkwNTRkOTYxXkEyXkFqcGdeQWFybm8@._V1_QL75_UY281_CR0,0,500,281_.jpg",
+        "title": "Super Mario",
+        "description": "Mario has appeared in over 200 video games since his creation. Depicted as a short, pudgy, Italian plumber who resides in the Mushroom Kingdom, his adventures generally center on rescuing Princess Peach from the Koopa villain Bowser. Mario has access to a variety of power-ups that give him different abilities.",
     },
     {
         "image": "https://www.pinkvilla.com/files/styles/large/public/shaktimanunknownfactsmain.jpg",
