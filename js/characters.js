@@ -334,9 +334,9 @@ const ALL_CHARACTERS = [
             "For Sidharth Shukla, it was the character of Agastya that got him on board Broken But Beautiful 3. In an exclusive chat with indianexpress.com, the actor shared that he could relate to his role, and since the show has been made in a very 'realistic way', he picked it up for his digital debut.",
     },
     {
-        image: 'https://resize.indiatvnews.com/en/resize/newbucket/730_-/2021/01/divyendu-1611727331.jpg',
-        title: 'Munna Bhaiya',
+        image: 'https://variety.com/wp-content/uploads/2022/07/Nancy-Love-Triangle-Stranger-Things.jpg?w=681&h=383&crop=1',
+        title: 'Nancy',
         description:
-            "Divyenndu as Phoolchand Tripathi a.k.a Munna: Kaleen Bhaiya's son, Satyanand's grandson, and Madhuri's husband. He is obsessed with not being the King of Mirzapur which leads to frequent arguments with his father, Akhandanand. (Season 1–Season 2)",
+            'Nancy Wheeler, portrayed by Natalia Dyer, is a main character in Stranger Things. Nancy is a young adult and an aspiring journalist, and an ally to The Party. She is the older sister of Mike Wheeler, the former girlfriend of Steve Harrington, and the current girlfriend of Jonathan Byers.',
     },
 ];
