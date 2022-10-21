@@ -288,5 +288,10 @@ const ALL_CHARACTERS = [
         "image": "https://github.com/amit-c-ai/Naruto-Shippuden/blob/main/Images/naruto.png?raw=true",
         "title": "Naruto Uzumaki",
         "description": "Naruto Uzumaki is the titular protagonist of the manga Naruto, created by Masashi Kishimoto. As the series progresses, he is a young ninja from the fictional village of Konohagakure (Hidden Leaf Village). The villagers ridicule and ostracize Naruto on account of the Nine-Tailed Demon Fox—a malevolent creature that attacked Konohagakure—that was sealed away in Naruto's body. Despite this, he aspires to become his village's leader, the Hokage, in order to receive their approval."
+    },
+    {
+        "image": "https://i1.wp.com/bollyy.com/wp-content/uploads/2022/03/WhatsApp-Image-2022-03-17-at-2.42.13-PM.jpeg?w=600&ssl=1",
+        "title": "Himmat Singh",
+        "description": "The Himmat Singh follows the origins of its titular character, even before he became a prodigy at R&AW and deployed his squad of hand-picked hidden agents around the world to track down Ikhlaq Khan, the mysterious strategist behind the majority of India’s terror attacks."
     }
 ];
