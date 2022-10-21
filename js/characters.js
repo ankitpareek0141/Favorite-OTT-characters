@@ -288,5 +288,11 @@ const ALL_CHARACTERS = [
         "image": "https://github.com/amit-c-ai/Naruto-Shippuden/blob/main/Images/naruto.png?raw=true",
         "title": "Naruto Uzumaki",
         "description": "Naruto Uzumaki is the titular protagonist of the manga Naruto, created by Masashi Kishimoto. As the series progresses, he is a young ninja from the fictional village of Konohagakure (Hidden Leaf Village). The villagers ridicule and ostracize Naruto on account of the Nine-Tailed Demon Fox—a malevolent creature that attacked Konohagakure—that was sealed away in Naruto's body. Despite this, he aspires to become his village's leader, the Hokage, in order to receive their approval."
+    },
+    {
+        "image": "https://nettv4u.com/imagine/21-01-2020/tovino-thomas.jpg",
+        "title": "Tovino Thomas",
+        "description": "Tovino made his silver screen debut through the Malayalam film Prabhuvinte Makkal (2012) directed by Sajeevan Anthikad. His onscreen performances in his subsequent films, ABCD (2013), 7th Day (2014), Ennu Ninte Moideen (2015) and Charlie (2015), made him to be considered as one of the most promising actors. He acted in the lead role in the film Guppy (2016) and was highly acclaimed by the critics. His subsequent films Oru Mexican Aparatha (2017) and Godha (2017) went on to become huge hits in the Mollywood industry."
     }
+    
 ];
