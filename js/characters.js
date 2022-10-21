@@ -288,5 +288,10 @@ const ALL_CHARACTERS = [
         "image": "https://github.com/amit-c-ai/Naruto-Shippuden/blob/main/Images/naruto.png?raw=true",
         "title": "Naruto Uzumaki",
         "description": "Naruto Uzumaki is the titular protagonist of the manga Naruto, created by Masashi Kishimoto. As the series progresses, he is a young ninja from the fictional village of Konohagakure (Hidden Leaf Village). The villagers ridicule and ostracize Naruto on account of the Nine-Tailed Demon Fox—a malevolent creature that attacked Konohagakure—that was sealed away in Naruto's body. Despite this, he aspires to become his village's leader, the Hokage, in order to receive their approval."
+    },
+    {
+        "image": "https://static.tvtropes.org/pmwiki/pub/images/littlefinger.png",
+        "title": "Petyr Baelish",
+        "description": "Lord Petyr Baelish, popularly called Littlefinger, was the Master of Coin on the small council under King Robert Baratheon and King Joffrey Baratheon. He was a skilled manipulator and used his ownership of brothels in King's Landing to both acquire vast wealth and accrue intelligence on political rivals. Baelish's spy network is eclipsed only by that of his arch-rival Varys."
     }
 ];
