@@ -10,14 +10,19 @@ const ALL_CHARACTERS = [
         "description": "At the age of eight, Park Joo-hyung was adopted by an Italian family. He later joins the mafia and is adopted by Don Fabio, head of the Cassano Family. Renamed “Vincenzo Cassano” he becomes a lawyer, a consigliere for the mafia, and Don Fabio's right-hand man. After Fabio dies, Paolo, Fabio's biological son and the new leader of the Cassano Family attempts to kill Vincenzo."
     },
     {
+        "image": "https://6.vikiplatform.com/image/69a2b3861b594adcb4f7062a0ca128c6.jpg",
+        "title": "Xing Fei",
+        "description": "Xing Fei (Chinese: 邢菲; pinyin: Xíng fēi, born October 1, 1994), also known as Fair Xing, is a Chinese actress and singer. She is best known for her roles in the dramas Master Devil Do Not Kiss Me (2017), Miracle Healer (2017), Miracle Healer Season 2 (2018), Put Your Head on My Shoulder (2019), Your Highness Class Monitor (2019), Forget You Remember Love (2020), Moon Brightens for you (2020), My Little Happiness (2021) and Miss Crow with Mr Lizard (2021)."
+    },
+    {
         "image": "https://i.insider.com/5cb3c8e96afbee373d4f2b62?width=700",
         "title": "John Snow",
         "description": "Jon Snow is a fictional character in the A\n                                Song of Ice and Fire series of fantasy\n                                novels by American author George R. R.\n                                Martin, and its television adaptation Game\n                                of Thrones, in which he was portrayed by\n                                English actor Kit Harington. In the novels,\n                                he is a prominent point of view character."
     },
     {
-        "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2022/07/Sansa-Starks-10-Best-Decisions.jpg",
-        "title": "Sansa Stark",
-        "description": "Sansa Stark is a fictional character in the\n                                A Song of Ice and Fire series of epic\n                                fantasy novels by American author George R.\n                                R. Martin, and its television adaptation\n                                Game of Thrones, where she was portrayed by\n                                English actress Sophie Turner."
+        "image": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/3/35/IronMan-EndgameProfile.jpg/revision/latest/scale-to-width-down/350?cb=20190423175213",
+        "title": "Iron Man",
+        "description": "Iron Man is a superhero appearing in American comic books published by Marvel Comics. The character was co-created by writer and editor Stan Lee, developed by scripter Larry Lieber, and designed by artists Don Heck and Jack Kirby. The character made his first appearance in Tales of Suspense #39 (cover dated March 1963), and received his own title in Iron Man #1 (May 1968). Also in 1963, the character founded the Avengers alongside Thor, Ant-Man, Wasp and the Hulk."
     },
     {
         "image": "https://user-images.githubusercontent.com/110908424/194935422-a78e6e72-a191-4f0c-a7a6-b3620ec5256b.png",
@@ -43,6 +48,11 @@ const ALL_CHARACTERS = [
         "image": "https://images.squarespace-cdn.com/content/v1/52fc05c9e4b08fc45bd99090/1432319060004-RJZ96P7XM1NV473CXTBR/image-asset.png",
         "title": "Lancel Lannister",
         "description": "Lancel Lannister is the son of Ser Kevan Lannister and the nephew of Lord Tywin Lannister, the head of House Lannister and Lord of Casterly Rock. He is the first cousin of Jaime, Cersei, and Tyrion Lannister. He has the family blond hair and looks similar to his cousin Jaime. He was a squire to King Robert Baratheon. Robert, Renly, and Ser Barristan go on a hunt, frequently giving Robert wine and taking advantage of Robert's altercation with Renly when discussing Robert's ability to enjoy whores no matter the political background."
+    },
+    {
+        "image": "https://m.media-amazon.com/images/M/MV5BYzAzYjU0ZDItMmZmNi00YzI3LWI0MTgtMDVhMzkwNTRkOTYxXkEyXkFqcGdeQWFybm8@._V1_QL75_UY281_CR0,0,500,281_.jpg",
+        "title": "Super Mario",
+        "description": "Mario has appeared in over 200 video games since his creation. Depicted as a short, pudgy, Italian plumber who resides in the Mushroom Kingdom, his adventures generally center on rescuing Princess Peach from the Koopa villain Bowser. Mario has access to a variety of power-ups that give him different abilities.",
     },
     {
         "image": "https://www.pinkvilla.com/files/styles/large/public/shaktimanunknownfactsmain.jpg",
@@ -265,8 +275,25 @@ const ALL_CHARACTERS = [
         "description": "Dark is a German science fiction thriller television series co-created by Baran bo Odar and Jantje Friese.[5][6][7] It ran for three seasons from 2017 to 2020. The story follows characters from the fictional village of Winden, Germany, as they pursue the truth in the aftermath of a child's disappearance. They follow connections between four estranged families to unravel a sinister time travel conspiracy which spans several generations. The series explores the existential implications of time and its effect on human nature. It features an ensemble cast"
     },
     {
+
         "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCharlie_Cox&psig=AOvVaw0j36-JBWBxmraJTSOcXuu-&ust=1666103166208000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCNidxY685_oCFQAAAAAdAAAAABAE",
         "title":"Charlie Cox",
         "description": "Charlie Thomas Cox (born 15 December 1982) is an English actor. He is best known for portraying Matt Murdock / Daredevil in several projects of the Marvel Cinematic Universe franchise, including lead roles in the television series Daredevil (2015–2018), The Defenders (2017), and the upcoming Daredevil: Born Again."
+     },
+     {
+        "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/04/Shanks.jpg",
+        "title": "Shanks",
+        "description": "Shanks Red-Haired Shanks is a legendary and powerful pirate in the Grand Line, being the captain of the Red Haired Pirate Crew and one of the Four Emperors in the second half of the grand line."
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOx9iOQDGngTtWqnTkMIvOyqIHClRIaN-zog&usqp=CAU",
+        "title": "Agastya Rao",
+        "description": "For Sidharth Shukla, it was the character of Agastya that got him on board Broken But Beautiful 3. In an exclusive chat with indianexpress.com, the actor shared that he could relate to his role, and since the show has been made in a very 'realistic way', he picked it up for his digital debut."
+    },
+    {
+        "image": "https://github.com/amit-c-ai/Naruto-Shippuden/blob/main/Images/naruto.png?raw=true",
+        "title": "Naruto Uzumaki",
+        "description": "Naruto Uzumaki is the titular protagonist of the manga Naruto, created by Masashi Kishimoto. As the series progresses, he is a young ninja from the fictional village of Konohagakure (Hidden Leaf Village). The villagers ridicule and ostracize Naruto on account of the Nine-Tailed Demon Fox—a malevolent creature that attacked Konohagakure—that was sealed away in Naruto's body. Despite this, he aspires to become his village's leader, the Hokage, in order to receive their approval."
+
     }
 ];

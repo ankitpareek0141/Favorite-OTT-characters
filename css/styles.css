@@ -170,7 +170,7 @@ abbr[data-bs-original-title] {
 address {
   margin-bottom: 1rem;
   font-style: normal;
-  line-height: inherit;
+  line-height: 3rem;
 }
 
 ol,
@@ -221,8 +221,8 @@ mark, .mark {
 
 sub,
 sup {
-  position: relative;
-  font-size: 0.75em;
+  position: absolute;
+  font-size:1.5em;
   line-height: 0;
   vertical-align: baseline;
 }
@@ -236,11 +236,11 @@ sup {
 }
 
 a {
-  color: #1abc9c;
+  color: #1abc6b;
   text-decoration: underline;
 }
 a:hover {
-  color: #15967d;
+  color: #1abca4;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -348,9 +348,9 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
+  font-family: Sans-serif;
+  font-size: 40rem;
+  line-height: 1rem;
 }
 
 button,
@@ -11510,4 +11510,29 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+#footer {
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  width: 100%;
+  background-color: black;
+  font-family: "Sofia", sans-serif;
+  font-size: 20px;
+}
+
+#footer p {
+  margin-top: 1rem;
+}
+
+#footer img {
+  width: 620px;
+}
+
+@media only screen and (max-width: 600px) {
+  #footer img {
+    width: 320px;
+  }  
 }
