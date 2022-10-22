@@ -1,3 +1,4 @@
+
 /*!
 * Start Bootstrap - Freelancer v7.0.6 (https://startbootstrap.com/theme/freelancer)
 * Copyright 2013-2022 Start Bootstrap
@@ -12,7 +13,7 @@ function loadAllData(characters) {
     $('#all-characters').append(`
       <div class="col">
         <div class="card h-100">
-            <img data-img="${character.image}" src="${character.image}" class="card-img-top" style="
+            <img data-img="${character.image}" data-lazy="${character.image}" class="card-img-top" style="
                 object-fit: contain;
                 width: auto;
                 height: 300px;
@@ -54,10 +55,10 @@ function loadAllData(characters) {
   })
 
   let sScale = 0.5;
-  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
     sScale = 1;
   }
-  
+
   // open (will be a child of the target element above)
 
   $('#all-characters img').on('click', function (e) {
@@ -67,13 +68,13 @@ function loadAllData(characters) {
       scale: sScale
     })
   })
-
+  addLazyLoading();
 }
 
-$('#SearchTxt').on('keyup', function() {
+$('#SearchTxt').on('keyup', function () {
   let str = $(this).val();
   var re = new RegExp(`.*${str}.*`, 'i');
-  var found = ALL_CHARACTERS.filter(function(character) { return re.test(character.title) || re.test(character.description); });
+  var found = ALL_CHARACTERS.filter(function (character) { return re.test(character.title) || re.test(character.description); });
   loadAllData(found);
 });
 
@@ -81,50 +82,50 @@ window.addEventListener('DOMContentLoaded', event => {
 
   loadAllData(ALL_CHARACTERS);
 
-    // Navbar shrink function
-    var navbarShrink = function () {
-        const navbarCollapsible = document.body.querySelector('#mainNav');
-        if (!navbarCollapsible) {
-            return;
-        }
-        if (window.scrollY === 0) {
-            navbarCollapsible.classList.remove('navbar-shrink')
-        } else {
-            navbarCollapsible.classList.add('navbar-shrink')
-        }
+  // Navbar shrink function
+  var navbarShrink = function () {
+    const navbarCollapsible = document.body.querySelector('#mainNav');
+    if (!navbarCollapsible) {
+      return;
+    }
+    if (window.scrollY === 0) {
+      navbarCollapsible.classList.remove('navbar-shrink')
+    } else {
+      navbarCollapsible.classList.add('navbar-shrink')
+    }
 
-    };
+  };
 
-    // Shrink the navbar 
-    navbarShrink();
+  // Shrink the navbar 
+  navbarShrink();
 
-    // Shrink the navbar when page is scrolled
-    document.addEventListener('scroll', navbarShrink);
+  // Shrink the navbar when page is scrolled
+  document.addEventListener('scroll', navbarShrink);
 
-    // Activate Bootstrap scrollspy on the main nav element
-    const mainNav = document.body.querySelector('#mainNav');
-    if (mainNav) {
-        new bootstrap.ScrollSpy(document.body, {
-            target: '#mainNav',
-            offset: 72,
-        });
-    };
-
-    // Collapse responsive navbar when toggler is visible
-    const navbarToggler = document.body.querySelector('.navbar-toggler');
-    const responsiveNavItems = [].slice.call(
-        document.querySelectorAll('#navbarResponsive .nav-link')
-    );
-    responsiveNavItems.map(function (responsiveNavItem) {
-        responsiveNavItem.addEventListener('click', () => {
-            if (window.getComputedStyle(navbarToggler).display !== 'none') {
-                navbarToggler.click();
-            }
-        });
+  // Activate Bootstrap scrollspy on the main nav element
+  const mainNav = document.body.querySelector('#mainNav');
+  if (mainNav) {
+    new bootstrap.ScrollSpy(document.body, {
+      target: '#mainNav',
+      offset: 72,
     });
+  };
 
-    
- 
+  // Collapse responsive navbar when toggler is visible
+  const navbarToggler = document.body.querySelector('.navbar-toggler');
+  const responsiveNavItems = [].slice.call(
+    document.querySelectorAll('#navbarResponsive .nav-link')
+  );
+  responsiveNavItems.map(function (responsiveNavItem) {
+    responsiveNavItem.addEventListener('click', () => {
+      if (window.getComputedStyle(navbarToggler).display !== 'none') {
+        navbarToggler.click();
+      }
+    });
+  });
+
+
+
 
 });
 
@@ -175,18 +176,18 @@ function setBulb(isActive) {
 
 //function for checkbox when checkbox is checked
 function darkmode() {
-    const body = document.querySelector('body');
-    const cards = document.querySelectorAll('.card');
-    body.classList.add('dark-mode');
-    cards.forEach(card => card.classList.add('dark-box'));
+  const body = document.querySelector('body');
+  const cards = document.querySelectorAll('.card');
+  body.classList.add('dark-mode');
+  cards.forEach(card => card.classList.add('dark-box'));
   checkbox.checked = true; //set checkbox to be checked state
   sessionStorage.setItem("mode", "dark"); //store a name & value to know that dark mode is on
 }
 
 //function for checkbox when checkbox is not checked
 function nodark() {
-    const body = document.querySelector('body');
-    const cards = document.querySelectorAll('.card')
+  const body = document.querySelector('body');
+  const cards = document.querySelectorAll('.card')
   document.body.classList.remove("dark-mode"); //remove added class from body tag
   cards.forEach(card => card.classList.remove('dark-box'))
   checkbox.checked = false; //set checkbox to be unchecked state
@@ -203,3 +204,23 @@ window.addEventListener("scroll", () => {
   }
 })
 
+
+function addLazyLoading() {
+  const images = document.querySelectorAll('.card-img-top');
+
+  const lazyLoad = target => {
+    const intersectionObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const image = entry.target;
+          const src = image.getAttribute('data-lazy');
+          image.setAttribute('src', src);
+          observer.disconnect();
+        }
+      })
+    });
+    intersectionObserver.observe(target);
+  }
+
+  images.forEach(lazyLoad);
+}
