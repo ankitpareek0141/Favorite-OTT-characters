@@ -288,5 +288,10 @@ const ALL_CHARACTERS = [
         "image": "https://github.com/amit-c-ai/Naruto-Shippuden/blob/main/Images/naruto.png?raw=true",
         "title": "Naruto Uzumaki",
         "description": "Naruto Uzumaki is the titular protagonist of the manga Naruto, created by Masashi Kishimoto. As the series progresses, he is a young ninja from the fictional village of Konohagakure (Hidden Leaf Village). The villagers ridicule and ostracize Naruto on account of the Nine-Tailed Demon Fox—a malevolent creature that attacked Konohagakure—that was sealed away in Naruto's body. Despite this, he aspires to become his village's leader, the Hokage, in order to receive their approval."
+    },
+    {
+        "image": "https://sm.ign.com/t/ign_ap/cover/s/star-wars-/star-wars-the-mandalorian_dy4p.1280.jpg",
+        "title": "Din Djarin",
+        "description": "Din Djarin, better known as \"the Mandalorian\" or just \"Mando\", is a Mandalorian bounty hunter who became an orphan during the end of the Galactic Republic and was raised as a foundling by the Children of the Watch, an orthodox cult broken off from the mainstream Mandalorian society. He is always seen with his Beskar helmet concealing his face all the times. He becomes a father figure of Grogu after adopting him and protecting him from the remnants of the Galactic Empire. Mando wields the famous Darksaber from Moff Gideon after defeating him to rescue Grogu from the Empire."
     }
 ];
