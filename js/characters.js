@@ -4,11 +4,16 @@ const ALL_CHARACTERS = [
         "title": "Seo Yea-ji",
         "description": "Seo Ye-ji is a South Korean actress. She began her acting career in the sitcom Potato Star 2013QR3. This was followed by major roles in period drama Diary of a Night Watchman, thriller Last, and fantasy Moorim School: Saga of the Brave. Her notable lead roles in television series include Save Me, and Lawless Lawyer."
     },
+	{
+        "image": "https://upload.wikimedia.org/wikipedia/en/f/fc/Jon_Bernthal_as_Frank_Castle.jpg",
+        "title": "Frank Castle",
+        "description": `Francis David "Frank" Castle, Sr., is a former United States Marine-turned-vigilante. While serving in Afghanistan alongside with Billy Russo, where the duo became friends, Castle and Russo joined the black-ops team, Cerberus Squad under the command of CIA Officer William Rawlins aimed at capturing, interrogating, and executing high-value targets. Fearing he was slowly losing his honor, Castle returned to his family, only to lose them all during a brutal shooting. Castle became the Punisher, as he aimed to clean up New York City of all crime by any means necessary. `
+    }, 
     {
         "image": "https://1.bp.blogspot.com/-c4qeK9vircE/YH4_DAyFIhI/AAAAAAAAKvA/NLIwau9rUNwBezMb2gnwdLFmpLPJ5pF2wCLcBGAsYHQ/s2048/210104_49.jpg",
         "title": "Vincenzo Cassano",
         "description": "At the age of eight, Park Joo-hyung was adopted by an Italian family. He later joins the mafia and is adopted by Don Fabio, head of the Cassano Family. Renamed “Vincenzo Cassano” he becomes a lawyer, a consigliere for the mafia, and Don Fabio's right-hand man. After Fabio dies, Paolo, Fabio's biological son and the new leader of the Cassano Family attempts to kill Vincenzo."
-    },
+    }, 
     {
         "image": "https://6.vikiplatform.com/image/69a2b3861b594adcb4f7062a0ca128c6.jpg",
         "title": "Xing Fei",
