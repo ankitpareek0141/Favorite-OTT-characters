@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    min-height: 100vh;
+    min-height: 200vh;
     min-width: 100vw;
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-    color: skyblue;
+    color: megenta;
     text-align: center;
 }
 
