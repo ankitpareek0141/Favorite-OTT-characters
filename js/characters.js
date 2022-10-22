@@ -1,5 +1,10 @@
 const ALL_CHARACTERS = [
     {
+        "image": "https://cdn.britannica.com/17/26017-004-16DAFE04/Satyajit-Ray.jpg",
+        "title" : "Satyajit Ray",
+        "description":"Satyajit Ray (2 May 1921 – 23 April 1992) was an Indian director, screenwriter, documentary filmmaker, author, essayist, lyricist, magazine editor, illustrator, calligrapher, and music composer. One of the greatest auteurs of film-making,Ray is celebrated for works including The Apu Trilogy (1955–1959), The Music Room (1958), The Big City (1963) and Charulata (1964)."
+    },
+    {
         "image": "https://media.starbiz.net/2020/09/10-facts-you-will-be-interested-in-talent-actress-seo-ye-ji.jpg",
         "title": "Seo Yea-ji",
         "description": "Seo Ye-ji is a South Korean actress. She began her acting career in the sitcom Potato Star 2013QR3. This was followed by major roles in period drama Diary of a Night Watchman, thriller Last, and fantasy Moorim School: Saga of the Brave. Her notable lead roles in television series include Save Me, and Lawless Lawyer."
