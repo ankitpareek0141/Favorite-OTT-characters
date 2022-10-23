@@ -288,11 +288,11 @@ const ALL_CHARACTERS = [
         "image": "https://github.com/amit-c-ai/Naruto-Shippuden/blob/main/Images/naruto.png?raw=true",
         "title": "Naruto Uzumaki",
         "description": "Naruto Uzumaki is the titular protagonist of the manga Naruto, created by Masashi Kishimoto. As the series progresses, he is a young ninja from the fictional village of Konohagakure (Hidden Leaf Village). The villagers ridicule and ostracize Naruto on account of the Nine-Tailed Demon Fox—a malevolent creature that attacked Konohagakure—that was sealed away in Naruto's body. Despite this, he aspires to become his village's leader, the Hokage, in order to receive their approval."
-    }
+    },
 
     {
-        "image": "",
-        "title": "",
-        "description": ""
+        "image": "http://drawcentral.com/wp-content/uploads/2019/02/How-To-Draw-Quagmire-Family-Guy-Main-1170x914.jpg",
+        "title": "Glenn Quagmire",
+        "description": "Glenn Quagmire, often referred to by just his surname, is a fictional person from the American Adult Animated series Family Guy. He is a neighbor and friend of the Griffin family and is best known for his hypersexuality and his catchphrase, "Giggity"."
     }
 ];
