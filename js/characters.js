@@ -1,4 +1,10 @@
 const ALL_CHARACTERS = [
+
+    {
+        "image": "https://lehren.com/wp-content/uploads/2021/07/From-Jeetu-Bhaiya-to-Coach-Rana-Gurus-from-digital-shows-who-deserve-applause-this-Guru-Purnima.jpg",
+        "title": "Jitendra Kumar",
+        "description": "Jitendra Kumar is an Indian actor. He is best known for his role of Jeetu Bhaiya in Kota Factory, Aman Tripathi in Shubh Mangal Zyada Saavdhan, Meenu in Jaadugar, and Abhishek Tripathi in Amazon Prime's Panchayat, for which he has won a Filmfare OTT award in the category of 'Best Actor in a Comedy Series (Male)'."
+    },
     {
         "image": "https://media.starbiz.net/2020/09/10-facts-you-will-be-interested-in-talent-actress-seo-ye-ji.jpg",
         "title": "Seo Yea-ji",
