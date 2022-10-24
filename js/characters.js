@@ -87,7 +87,7 @@ const ALL_CHARACTERS = [
     {
         "image": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/a418552e4e66f5e1cfc6c356cd54da2f7d2374034a449f4d28f706b91d82be0e._RI_V_TTW_.jpg",
         "title": "Patlu",
-        "description": "Motu aur patlu ki jodi"
+        "description": "Patlu is a thin man who is one of the show's main characters He is frequently portrayed as the smartest guy in town\n                  He frequently gets into mischief with Motu, but he always manages to save himself and Motu\n       He always advises Motu to stay on their normal path and thus live a harmless life, but he can always be coaxed (or forced) into assisting him by Motu.\n     He dislikes samosas but enjoys reading newspapers, He's attired in a yellow tunic with orange leggings, brown glasses, and brown shoes."
     },
     {
         "image": "https://m.media-amazon.com/images/M/MV5BODY4Y2UyODUtYjkzNC00NmZlLWEzNWYtMTAxYmIzNGVlYmVkXkEyXkFqcGdeQXVyODAzNzAwOTU@._V1_.jpg",
