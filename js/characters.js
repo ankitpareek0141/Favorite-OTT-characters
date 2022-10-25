@@ -275,6 +275,12 @@ const ALL_CHARACTERS = [
         "description": "Dark is a German science fiction thriller television series co-created by Baran bo Odar and Jantje Friese.[5][6][7] It ran for three seasons from 2017 to 2020. The story follows characters from the fictional village of Winden, Germany, as they pursue the truth in the aftermath of a child's disappearance. They follow connections between four estranged families to unravel a sinister time travel conspiracy which spans several generations. The series explores the existential implications of time and its effect on human nature. It features an ensemble cast"
     },
     {
+
+        "image":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCharlie_Cox&psig=AOvVaw0j36-JBWBxmraJTSOcXuu-&ust=1666103166208000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCNidxY685_oCFQAAAAAdAAAAABAE",
+        "title":"Charlie Cox",
+        "description": "Charlie Thomas Cox (born 15 December 1982) is an English actor. He is best known for portraying Matt Murdock / Daredevil in several projects of the Marvel Cinematic Universe franchise, including lead roles in the television series Daredevil (2015–2018), The Defenders (2017), and the upcoming Daredevil: Born Again."
+     },
+     {
         "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/04/Shanks.jpg",
         "title": "Shanks",
         "description": "Shanks Red-Haired Shanks is a legendary and powerful pirate in the Grand Line, being the captain of the Red Haired Pirate Crew and one of the Four Emperors in the second half of the grand line."
@@ -288,6 +294,7 @@ const ALL_CHARACTERS = [
         "image": "https://github.com/amit-c-ai/Naruto-Shippuden/blob/main/Images/naruto.png?raw=true",
         "title": "Naruto Uzumaki",
         "description": "Naruto Uzumaki is the titular protagonist of the manga Naruto, created by Masashi Kishimoto. As the series progresses, he is a young ninja from the fictional village of Konohagakure (Hidden Leaf Village). The villagers ridicule and ostracize Naruto on account of the Nine-Tailed Demon Fox—a malevolent creature that attacked Konohagakure—that was sealed away in Naruto's body. Despite this, he aspires to become his village's leader, the Hokage, in order to receive their approval."
+
     }
 
     {
