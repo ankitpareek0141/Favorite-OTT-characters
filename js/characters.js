@@ -1,5 +1,4 @@
-const ALL_CHARACTERS = [
-    {
+const ALL_CHARACTERS = [{
         "image": "https://media.starbiz.net/2020/09/10-facts-you-will-be-interested-in-talent-actress-seo-ye-ji.jpg",
         "title": "Seo Yea-ji",
         "description": "Seo Ye-ji is a South Korean actress. She began her acting career in the sitcom Potato Star 2013QR3. This was followed by major roles in period drama Diary of a Night Watchman, thriller Last, and fantasy Moorim School: Saga of the Brave. Her notable lead roles in television series include Save Me, and Lawless Lawyer."
@@ -288,11 +287,11 @@ const ALL_CHARACTERS = [
         "image": "https://github.com/amit-c-ai/Naruto-Shippuden/blob/main/Images/naruto.png?raw=true",
         "title": "Naruto Uzumaki",
         "description": "Naruto Uzumaki is the titular protagonist of the manga Naruto, created by Masashi Kishimoto. As the series progresses, he is a young ninja from the fictional village of Konohagakure (Hidden Leaf Village). The villagers ridicule and ostracize Naruto on account of the Nine-Tailed Demon Fox—a malevolent creature that attacked Konohagakure—that was sealed away in Naruto's body. Despite this, he aspires to become his village's leader, the Hokage, in order to receive their approval."
-    }
+    },
 
     {
-        "image": "",
-        "title": "",
-        "description": ""
+        "image": "https://static.toiimg.com/photo/61199255.cms",
+        "title": "Ayushmann Khurrana",
+        "description": "Known for his portrayals of ordinary men often battling social norms, Ayushmann Khurrana is a popular actor, singer and TV Host. In 2020, he was seen in the Amazon Prime film ‘Gulabo Sitabo’ with his enchanting onscreen persona. He is the recipient of several awards, including a National Film Award and four Filmfare Awards."
     }
 ];
