@@ -288,6 +288,11 @@ const ALL_CHARACTERS = [
         "image": "https://github.com/amit-c-ai/Naruto-Shippuden/blob/main/Images/naruto.png?raw=true",
         "title": "Naruto Uzumaki",
         "description": "Naruto Uzumaki is the titular protagonist of the manga Naruto, created by Masashi Kishimoto. As the series progresses, he is a young ninja from the fictional village of Konohagakure (Hidden Leaf Village). The villagers ridicule and ostracize Naruto on account of the Nine-Tailed Demon Fox—a malevolent creature that attacked Konohagakure—that was sealed away in Naruto's body. Despite this, he aspires to become his village's leader, the Hokage, in order to receive their approval."
+    },
+    {
+        "image": "https://i.scdn.co/image/ab67616d0000b273c6ddebfcaee7dffdd5c2ede7",
+        "title": "Light Yagami",
+        "description": "Light is characterized as hardworking, talented, and a natural genius. Highly perceptive and good with problem solving skills, Light is a skilled planner and good at mapping out scenarios. Furthermore, Light is very popular among peers and adored by his family members. However, his high intelligence and constant praise from adults laid the foundation for an intense level of hubris which quickly took effect once he obtained the notebook."
     }
 
     {
