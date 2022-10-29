@@ -288,5 +288,10 @@ const ALL_CHARACTERS = [
         "image": "https://github.com/amit-c-ai/Naruto-Shippuden/blob/main/Images/naruto.png?raw=true",
         "title": "Naruto Uzumaki",
         "description": "Naruto Uzumaki is the titular protagonist of the manga Naruto, created by Masashi Kishimoto. As the series progresses, he is a young ninja from the fictional village of Konohagakure (Hidden Leaf Village). The villagers ridicule and ostracize Naruto on account of the Nine-Tailed Demon Fox—a malevolent creature that attacked Konohagakure—that was sealed away in Naruto's body. Despite this, he aspires to become his village's leader, the Hokage, in order to receive their approval."
+    },
+    {
+        "image": "assets/img/stefan-salvatore.jpg",
+        "title": "Stefan Salvatore",
+        "description": "He is a vampire in vampire diaries, who is\n                                part of a love triangle between his brother\n                                Damon and a female vampire named Katherine\n                                Pierce whom they were both compelled to love\n                                when they were still human. A century after\n                                Damon and Stefan leave Mystic Falls, they\n                                both return and meet Elena Gilbert, a mortal\n                                who looks exactly like Katherine."
     }
 ];
