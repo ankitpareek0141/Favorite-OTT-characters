@@ -288,11 +288,17 @@ const ALL_CHARACTERS = [
         "image": "https://github.com/amit-c-ai/Naruto-Shippuden/blob/main/Images/naruto.png?raw=true",
         "title": "Naruto Uzumaki",
         "description": "Naruto Uzumaki is the titular protagonist of the manga Naruto, created by Masashi Kishimoto. As the series progresses, he is a young ninja from the fictional village of Konohagakure (Hidden Leaf Village). The villagers ridicule and ostracize Naruto on account of the Nine-Tailed Demon Fox—a malevolent creature that attacked Konohagakure—that was sealed away in Naruto's body. Despite this, he aspires to become his village's leader, the Hokage, in order to receive their approval."
-    }
+    },
 
     {
+        "image": "https://static.wikia.nocookie.net/dr-stone/images/9/93/Senku_Ishigami_%28Anime%29.png/revision/latest?cb=20190710154134",
+        "title": "Senku Ishigami",
+        "description": "Senku Ishigami is the protagonist from Riichiro Inagaki and Boichi's manga Dr. Stone. Beginning in April 5738 AD, it has been over 3,700 years since a mysterious flash petrified nearly all human life."
+    },
+    {
         "image": "",
-        "title": "",
-        "description": ""
+        "title": " ",
+        "description": " "
     }
+
 ];
