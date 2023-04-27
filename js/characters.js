@@ -288,6 +288,16 @@ const ALL_CHARACTERS = [
         "image": "https://github.com/amit-c-ai/Naruto-Shippuden/blob/main/Images/naruto.png?raw=true",
         "title": "Naruto Uzumaki",
         "description": "Naruto Uzumaki is the titular protagonist of the manga Naruto, created by Masashi Kishimoto. As the series progresses, he is a young ninja from the fictional village of Konohagakure (Hidden Leaf Village). The villagers ridicule and ostracize Naruto on account of the Nine-Tailed Demon Fox—a malevolent creature that attacked Konohagakure—that was sealed away in Naruto's body. Despite this, he aspires to become his village's leader, the Hokage, in order to receive their approval."
+    },
+    {
+        "image": "https://static.tvtropes.org/pmwiki/pub/images/littlefinger.png",
+        "title": "Petyr Baelish",
+        "description": "Lord Petyr Baelish, popularly called Littlefinger, was the Master of Coin on the small council under King Robert Baratheon and King Joffrey Baratheon. He was a skilled manipulator and used his ownership of brothels in King's Landing to both acquire vast wealth and accrue intelligence on political rivals. Baelish's spy network is eclipsed only by that of his arch-rival Varys."
+    },
+    {
+        "image": "https://qph.cf2.quoracdn.net/main-qimg-4bd9f7b930b1b12a60aab881e5033be0-lq",
+        "title": "Arya Stark",
+        "description": "Princess Arya Stark is the third child and second daughter of Lord Eddard Stark and his wife, Lady Catelyn Stark. She is the sister of the incumbent Westerosi monarchs, Sansa, Queen in the North, and Brandon, King of the Andals and the First Men."
     }
 
     {
