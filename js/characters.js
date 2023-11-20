@@ -295,4 +295,9 @@ const ALL_CHARACTERS = [
         "title": "",
         "description": ""
     }
+     {
+        "image": "assets/img/ganesh_gaitonde.webp",
+        "title": "Ganesh Gaitonde",
+        "description": "Ganesh Gaitonde (Played By Nawazuddin Siddiqui) was an Indian gangster and is the main Protagonist of Sacred Games along with Sartaj Singh. He was the rival don of Suleiman Isa. Despite being a top mafia don, it is revealed in the end that he was used as a pawn in Guru ji's plan to destroy Mumbai for over 20 years."
+    }
 ];
