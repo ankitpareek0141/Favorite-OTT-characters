@@ -101,6 +101,8 @@ $ git push
 ## 👩‍💻👨‍💻 Our valuable Contributors
 
 <p align="center">
-<a href="https://github.com/ankitpareek0141/Favorite-OTT-characters/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ankitpareek0141/Favorite-OTT-characters" />
-</a></p>
+<a href="https://github.com/angular/angular-ja/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=angular/angular-ja" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).</p>
